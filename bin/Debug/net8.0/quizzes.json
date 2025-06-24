@@ -1,0 +1,2309 @@
+[
+  {
+    "Id": "quiz-1",
+    "Title": "History Quiz",
+    "Category": 0,
+    "Questions": [
+      {
+        "Id": "hist-1",
+        "Text": "In which year did World War II end?",
+        "Options": [
+          "1943",
+          "1945",
+          "1950",
+          "1939"
+        ],
+        "CorrectAnswers": [
+          "1945"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-2",
+        "Text": "Who was the first president of the United States?",
+        "Options": [
+          "Thomas Jefferson",
+          "John Adams",
+          "George Washington",
+          "Abraham Lincoln"
+        ],
+        "CorrectAnswers": [
+          "George Washington"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-3",
+        "Text": "Which ancient civilization built the pyramids?",
+        "Options": [
+          "Greeks",
+          "Romans",
+          "Egyptians",
+          "Mayans"
+        ],
+        "CorrectAnswers": [
+          "Egyptians"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-4",
+        "Text": "Which of these events happened during the Middle Ages?",
+        "Options": [
+          "The Crusades",
+          "The American Revolution",
+          "World War I",
+          "The Industrial Revolution"
+        ],
+        "CorrectAnswers": [
+          "The Crusades"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-5",
+        "Text": "Which countries were part of the Axis powers in WWII?",
+        "Options": [
+          "Germany",
+          "Italy",
+          "Japan",
+          "United States",
+          "France"
+        ],
+        "CorrectAnswers": [
+          "Germany",
+          "Italy",
+          "Japan"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "hist-6",
+        "Text": "The Renaissance began in which country?",
+        "Options": [
+          "France",
+          "England",
+          "Italy",
+          "Spain"
+        ],
+        "CorrectAnswers": [
+          "Italy"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-7",
+        "Text": "Who wrote the 95 Theses?",
+        "Options": [
+          "John Calvin",
+          "Martin Luther",
+          "Henry VIII",
+          "Pope Leo X"
+        ],
+        "CorrectAnswers": [
+          "Martin Luther"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-8",
+        "Text": "The Industrial Revolution began in which country?",
+        "Options": [
+          "United States",
+          "France",
+          "Germany",
+          "Great Britain"
+        ],
+        "CorrectAnswers": [
+          "Great Britain"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-9",
+        "Text": "Which ancient wonder was located in Babylon?",
+        "Options": [
+          "Great Pyramid",
+          "Hanging Gardens",
+          "Colossus of Rhodes",
+          "Lighthouse of Alexandria"
+        ],
+        "CorrectAnswers": [
+          "Hanging Gardens"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-10",
+        "Text": "The Magna Carta was signed in which year?",
+        "Options": [
+          "1066",
+          "1215",
+          "1492",
+          "1776"
+        ],
+        "CorrectAnswers": [
+          "1215"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-11",
+        "Text": "Who was the leader of the Soviet Union during WWII?",
+        "Options": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Nikita Khrushchev",
+          "Leon Trotsky"
+        ],
+        "CorrectAnswers": [
+          "Joseph Stalin"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-12",
+        "Text": "Which civilization invented paper?",
+        "Options": [
+          "Ancient Egyptians",
+          "Ancient Chinese",
+          "Ancient Greeks",
+          "Ancient Romans"
+        ],
+        "CorrectAnswers": [
+          "Ancient Chinese"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-13",
+        "Text": "The French Revolution began in which year?",
+        "Options": [
+          "1776",
+          "1789",
+          "1812",
+          "1688"
+        ],
+        "CorrectAnswers": [
+          "1789"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-14",
+        "Text": "Which explorer reached India by sea?",
+        "Options": [
+          "Christopher Columbus",
+          "Vasco da Gama",
+          "Ferdinand Magellan",
+          "Marco Polo"
+        ],
+        "CorrectAnswers": [
+          "Vasco da Gama"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-15",
+        "Text": "The Berlin Wall fell in which year?",
+        "Options": [
+          "1985",
+          "1989",
+          "1991",
+          "1975"
+        ],
+        "CorrectAnswers": [
+          "1989"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-16",
+        "Text": "Who was the first female pharaoh of Egypt?",
+        "Options": [
+          "Nefertiti",
+          "Cleopatra",
+          "Hatshepsut",
+          "Merneith"
+        ],
+        "CorrectAnswers": [
+          "Hatshepsut"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-17",
+        "Text": "Which empire was ruled by Suleiman the Magnificent?",
+        "Options": [
+          "Roman Empire",
+          "Ottoman Empire",
+          "British Empire",
+          "Mongol Empire"
+        ],
+        "CorrectAnswers": [
+          "Ottoman Empire"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-18",
+        "Text": "The Declaration of Independence was signed in which year?",
+        "Options": [
+          "1776",
+          "1789",
+          "1799",
+          "1812"
+        ],
+        "CorrectAnswers": [
+          "1776"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-19",
+        "Text": "Which ancient city was destroyed by a volcanic eruption?",
+        "Options": [
+          "Athens",
+          "Pompeii",
+          "Troy",
+          "Carthage"
+        ],
+        "CorrectAnswers": [
+          "Pompeii"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-20",
+        "Text": "Who invented the printing press?",
+        "Options": [
+          "Leonardo da Vinci",
+          "Galileo Galilei",
+          "Johannes Gutenberg",
+          "Isaac Newton"
+        ],
+        "CorrectAnswers": [
+          "Johannes Gutenberg"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-21",
+        "Text": "The Hundred Years\u0027 War was between which two countries?",
+        "Options": [
+          "England and France",
+          "Spain and Portugal",
+          "Germany and Italy",
+          "Russia and Poland"
+        ],
+        "CorrectAnswers": [
+          "England and France"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-22",
+        "Text": "Which Chinese dynasty built the Great Wall?",
+        "Options": [
+          "Han",
+          "Tang",
+          "Ming",
+          "Qin"
+        ],
+        "CorrectAnswers": [
+          "Qin"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-23",
+        "Text": "The Treaty of Versailles ended which war?",
+        "Options": [
+          "World War I",
+          "World War II",
+          "Napoleonic Wars",
+          "Franco-Prussian War"
+        ],
+        "CorrectAnswers": [
+          "World War I"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-24",
+        "Text": "Who was the first emperor of Rome?",
+        "Options": [
+          "Julius Caesar",
+          "Augustus",
+          "Nero",
+          "Constantine"
+        ],
+        "CorrectAnswers": [
+          "Augustus"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-25",
+        "Text": "The Silk Road connected which regions?",
+        "Options": [
+          "Europe and Africa",
+          "Europe and Asia",
+          "Asia and Africa",
+          "America and Asia"
+        ],
+        "CorrectAnswers": [
+          "Europe and Asia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-26",
+        "Text": "Which country was not part of the Allied powers in WWII?",
+        "Options": [
+          "United States",
+          "Soviet Union",
+          "Germany",
+          "Great Britain"
+        ],
+        "CorrectAnswers": [
+          "Germany"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-27",
+        "Text": "The Black Death occurred during which century?",
+        "Options": [
+          "12th",
+          "14th",
+          "16th",
+          "18th"
+        ],
+        "CorrectAnswers": [
+          "14th"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-28",
+        "Text": "Who was the first European to reach North America?",
+        "Options": [
+          "Christopher Columbus",
+          "Leif Erikson",
+          "John Cabot",
+          "Amerigo Vespucci"
+        ],
+        "CorrectAnswers": [
+          "Leif Erikson"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-29",
+        "Text": "The Cold War was primarily between which two countries?",
+        "Options": [
+          "USA and China",
+          "USA and Soviet Union",
+          "China and Soviet Union",
+          "USA and Germany"
+        ],
+        "CorrectAnswers": [
+          "USA and Soviet Union"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-30",
+        "Text": "Which civilization invented democracy?",
+        "Options": [
+          "Ancient Romans",
+          "Ancient Egyptians",
+          "Ancient Greeks",
+          "Ancient Chinese"
+        ],
+        "CorrectAnswers": [
+          "Ancient Greeks"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-31",
+        "Text": "The American Civil War was fought between which years?",
+        "Options": [
+          "1775-1783",
+          "1812-1815",
+          "1861-1865",
+          "1914-1918"
+        ],
+        "CorrectAnswers": [
+          "1861-1865"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-32",
+        "Text": "Who was the first female Prime Minister of the UK?",
+        "Options": [
+          "Queen Elizabeth I",
+          "Margaret Thatcher",
+          "Theresa May",
+          "Indira Gandhi"
+        ],
+        "CorrectAnswers": [
+          "Margaret Thatcher"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-33",
+        "Text": "The Boxer Rebellion occurred in which country?",
+        "Options": [
+          "Japan",
+          "India",
+          "China",
+          "Vietnam"
+        ],
+        "CorrectAnswers": [
+          "China"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-34",
+        "Text": "Which empire was ruled by Genghis Khan?",
+        "Options": [
+          "Persian Empire",
+          "Mongol Empire",
+          "Ottoman Empire",
+          "Roman Empire"
+        ],
+        "CorrectAnswers": [
+          "Mongol Empire"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-35",
+        "Text": "The Spanish Armada was defeated by which country?",
+        "Options": [
+          "France",
+          "Portugal",
+          "England",
+          "Netherlands"
+        ],
+        "CorrectAnswers": [
+          "England"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-36",
+        "Text": "Which country was not part of the Triple Entente in WWI?",
+        "Options": [
+          "France",
+          "Russia",
+          "Great Britain",
+          "Germany"
+        ],
+        "CorrectAnswers": [
+          "Germany"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-37",
+        "Text": "The first successful English colony in America was?",
+        "Options": [
+          "Plymouth",
+          "Jamestown",
+          "Roanoke",
+          "New Amsterdam"
+        ],
+        "CorrectAnswers": [
+          "Jamestown"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-38",
+        "Text": "Which revolution began with the storming of the Bastille?",
+        "Options": [
+          "American Revolution",
+          "French Revolution",
+          "Russian Revolution",
+          "Industrial Revolution"
+        ],
+        "CorrectAnswers": [
+          "French Revolution"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-39",
+        "Text": "The first atomic bombs were dropped on which Japanese cities?",
+        "Options": [
+          "Tokyo and Kyoto",
+          "Hiroshima and Nagasaki",
+          "Osaka and Yokohama",
+          "Nagasaki and Tokyo"
+        ],
+        "CorrectAnswers": [
+          "Hiroshima and Nagasaki"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "hist-40",
+        "Text": "Which ancient civilization developed the concept of zero?",
+        "Options": [
+          "Egyptians",
+          "Greeks",
+          "Mayans",
+          "Indians"
+        ],
+        "CorrectAnswers": [
+          "Indians"
+        ],
+        "isMultipleChoice": false
+      }
+    ],
+    "CorrectAnswersCount": 0
+  },
+  {
+    "Id": "quiz-2",
+    "Title": "Geography Quiz",
+    "Category": 1,
+    "Questions": [
+      {
+        "Id": "geo-1",
+        "Text": "What is the capital of France?",
+        "Options": [
+          "Berlin",
+          "Madrid",
+          "Paris",
+          "Rome"
+        ],
+        "CorrectAnswers": [
+          "Paris"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-2",
+        "Text": "Which is the longest river in the world?",
+        "Options": [
+          "Amazon",
+          "Nile",
+          "Yangtze",
+          "Mississippi"
+        ],
+        "CorrectAnswers": [
+          "Nile"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-3",
+        "Text": "Mount Everest is located in which mountain range?",
+        "Options": [
+          "Andes",
+          "Alps",
+          "Himalayas",
+          "Rockies"
+        ],
+        "CorrectAnswers": [
+          "Himalayas"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-4",
+        "Text": "Which of these countries is landlocked?",
+        "Options": [
+          "Brazil",
+          "Australia",
+          "Switzerland",
+          "Japan"
+        ],
+        "CorrectAnswers": [
+          "Switzerland"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-5",
+        "Text": "Which countries share a border with the United States?",
+        "Options": [
+          "Canada",
+          "Mexico",
+          "Russia",
+          "Cuba"
+        ],
+        "CorrectAnswers": [
+          "Canada",
+          "Mexico"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "geo-6",
+        "Text": "The Sahara Desert is located in which continent?",
+        "Options": [
+          "Asia",
+          "Africa",
+          "South America",
+          "Australia"
+        ],
+        "CorrectAnswers": [
+          "Africa"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-7",
+        "Text": "Which of these is the largest ocean?",
+        "Options": [
+          "Atlantic",
+          "Indian",
+          "Arctic",
+          "Pacific"
+        ],
+        "CorrectAnswers": [
+          "Pacific"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-8",
+        "Text": "The Great Barrier Reef is located off the coast of which country?",
+        "Options": [
+          "Brazil",
+          "Australia",
+          "Indonesia",
+          "South Africa"
+        ],
+        "CorrectAnswers": [
+          "Australia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-9",
+        "Text": "Which continent contains the most fresh water?",
+        "Options": [
+          "Asia",
+          "Africa",
+          "Antarctica",
+          "North America"
+        ],
+        "CorrectAnswers": [
+          "Antarctica"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-10",
+        "Text": "The Amazon rainforest is primarily located in which country?",
+        "Options": [
+          "Brazil",
+          "Peru",
+          "Colombia",
+          "Venezuela"
+        ],
+        "CorrectAnswers": [
+          "Brazil"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-11",
+        "Text": "Which of these cities is not a national capital?",
+        "Options": [
+          "Sydney",
+          "Canberra",
+          "Washington D.C.",
+          "London"
+        ],
+        "CorrectAnswers": [
+          "Sydney"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-12",
+        "Text": "The Dead Sea is bordered by which countries?",
+        "Options": [
+          "Israel",
+          "Jordan",
+          "Egypt",
+          "Syria"
+        ],
+        "CorrectAnswers": [
+          "Israel",
+          "Jordan"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "geo-13",
+        "Text": "Which country has the most time zones?",
+        "Options": [
+          "United States",
+          "Russia",
+          "China",
+          "Canada"
+        ],
+        "CorrectAnswers": [
+          "France"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-14",
+        "Text": "The Panama Canal connects which two oceans?",
+        "Options": [
+          "Atlantic and Indian",
+          "Atlantic and Pacific",
+          "Pacific and Indian",
+          "Arctic and Atlantic"
+        ],
+        "CorrectAnswers": [
+          "Atlantic and Pacific"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-15",
+        "Text": "Which of these is the smallest country by area?",
+        "Options": [
+          "Monaco",
+          "Vatican City",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "CorrectAnswers": [
+          "Vatican City"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-16",
+        "Text": "The Yangtze River is located in which country?",
+        "Options": [
+          "India",
+          "China",
+          "Japan",
+          "Vietnam"
+        ],
+        "CorrectAnswers": [
+          "China"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-17",
+        "Text": "Which African country was formerly known as Abyssinia?",
+        "Options": [
+          "Ethiopia",
+          "Sudan",
+          "Kenya",
+          "Tanzania"
+        ],
+        "CorrectAnswers": [
+          "Ethiopia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-18",
+        "Text": "The Ural Mountains form a boundary between which two continents?",
+        "Options": [
+          "Europe and Asia",
+          "Asia and Africa",
+          "North and South America",
+          "Europe and Africa"
+        ],
+        "CorrectAnswers": [
+          "Europe and Asia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-19",
+        "Text": "Which country is known as the \u0027Land of the Rising Sun\u0027?",
+        "Options": [
+          "China",
+          "Japan",
+          "South Korea",
+          "Thailand"
+        ],
+        "CorrectAnswers": [
+          "Japan"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-20",
+        "Text": "The capital of Canada is:",
+        "Options": [
+          "Toronto",
+          "Vancouver",
+          "Ottawa",
+          "Montreal"
+        ],
+        "CorrectAnswers": [
+          "Ottawa"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-21",
+        "Text": "Which of these countries is not in Europe?",
+        "Options": [
+          "Hungary",
+          "Romania",
+          "Morocco",
+          "Poland"
+        ],
+        "CorrectAnswers": [
+          "Morocco"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-22",
+        "Text": "The Galapagos Islands belong to which country?",
+        "Options": [
+          "Ecuador",
+          "Peru",
+          "Chile",
+          "Colombia"
+        ],
+        "CorrectAnswers": [
+          "Ecuador"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-23",
+        "Text": "Which of these cities is located in both Europe and Asia?",
+        "Options": [
+          "Istanbul",
+          "Moscow",
+          "Cairo",
+          "Dubai"
+        ],
+        "CorrectAnswers": [
+          "Istanbul"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-24",
+        "Text": "The Atacama Desert is located in which continent?",
+        "Options": [
+          "Africa",
+          "Asia",
+          "South America",
+          "Australia"
+        ],
+        "CorrectAnswers": [
+          "South America"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-25",
+        "Text": "Which country is both an island and a continent?",
+        "Options": [
+          "New Zealand",
+          "Madagascar",
+          "Australia",
+          "Greenland"
+        ],
+        "CorrectAnswers": [
+          "Australia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-26",
+        "Text": "The Strait of Gibraltar separates which two landmasses?",
+        "Options": [
+          "Europe and Africa",
+          "Asia and Europe",
+          "North and South America",
+          "Africa and Asia"
+        ],
+        "CorrectAnswers": [
+          "Europe and Africa"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-27",
+        "Text": "Which of these is the largest country by area?",
+        "Options": [
+          "Canada",
+          "China",
+          "United States",
+          "Brazil"
+        ],
+        "CorrectAnswers": [
+          "Russia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-28",
+        "Text": "The capital of Australia is:",
+        "Options": [
+          "Sydney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ],
+        "CorrectAnswers": [
+          "Canberra"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-29",
+        "Text": "Which river runs through Baghdad?",
+        "Options": [
+          "Nile",
+          "Tigris",
+          "Euphrates",
+          "Jordan"
+        ],
+        "CorrectAnswers": [
+          "Tigris"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-30",
+        "Text": "The Andes mountain range runs through which countries?",
+        "Options": [
+          "Chile",
+          "Peru",
+          "Colombia",
+          "Brazil",
+          "Argentina"
+        ],
+        "CorrectAnswers": [
+          "Chile",
+          "Peru",
+          "Colombia",
+          "Argentina"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "geo-31",
+        "Text": "Which of these is not a Scandinavian country?",
+        "Options": [
+          "Sweden",
+          "Finland",
+          "Denmark",
+          "Iceland"
+        ],
+        "CorrectAnswers": [
+          "Finland"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-32",
+        "Text": "The Suez Canal connects which two bodies of water?",
+        "Options": [
+          "Mediterranean Sea and Red Sea",
+          "Atlantic and Pacific",
+          "Indian Ocean and Persian Gulf",
+          "Black Sea and Aegean Sea"
+        ],
+        "CorrectAnswers": [
+          "Mediterranean Sea and Red Sea"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-33",
+        "Text": "Which country has the longest coastline?",
+        "Options": [
+          "Russia",
+          "Canada",
+          "United States",
+          "Australia"
+        ],
+        "CorrectAnswers": [
+          "Canada"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-34",
+        "Text": "The Maldives are located in which ocean?",
+        "Options": [
+          "Atlantic",
+          "Indian",
+          "Pacific",
+          "Arctic"
+        ],
+        "CorrectAnswers": [
+          "Indian"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-35",
+        "Text": "Which of these US states does not border Mexico?",
+        "Options": [
+          "Texas",
+          "Arizona",
+          "New Mexico",
+          "Nevada"
+        ],
+        "CorrectAnswers": [
+          "Nevada"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-36",
+        "Text": "The capital of South Africa is:",
+        "Options": [
+          "Johannesburg",
+          "Cape Town",
+          "Pretoria",
+          "Durban"
+        ],
+        "CorrectAnswers": [
+          "Pretoria"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-37",
+        "Text": "Which of these is not a Baltic state?",
+        "Options": [
+          "Estonia",
+          "Latvia",
+          "Lithuania",
+          "Poland"
+        ],
+        "CorrectAnswers": [
+          "Poland"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-38",
+        "Text": "The highest mountain in Africa is:",
+        "Options": [
+          "Mount Kenya",
+          "Mount Kilimanjaro",
+          "Mount Stanley",
+          "Mount Meru"
+        ],
+        "CorrectAnswers": [
+          "Mount Kilimanjaro"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-39",
+        "Text": "Which of these countries is not in South America?",
+        "Options": [
+          "Suriname",
+          "Guyana",
+          "Belize",
+          "Ecuador"
+        ],
+        "CorrectAnswers": [
+          "Belize"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "geo-40",
+        "Text": "The largest island in the world is:",
+        "Options": [
+          "Greenland",
+          "Australia",
+          "Borneo",
+          "Madagascar"
+        ],
+        "CorrectAnswers": [
+          "Greenland"
+        ],
+        "isMultipleChoice": false
+      }
+    ],
+    "CorrectAnswersCount": 0
+  },
+  {
+    "Id": "quiz-3",
+    "Title": "Biology Quiz",
+    "Category": 2,
+    "Questions": [
+      {
+        "Id": "bio-1",
+        "Text": "What is the basic unit of life?",
+        "Options": [
+          "Atom",
+          "Cell",
+          "Molecule",
+          "Organ"
+        ],
+        "CorrectAnswers": [
+          "Cell"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-2",
+        "Text": "Which of these is not one of the four main blood types?",
+        "Options": [
+          "A",
+          "B",
+          "AB",
+          "C"
+        ],
+        "CorrectAnswers": [
+          "C"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-3",
+        "Text": "Photosynthesis occurs in which part of the plant cell?",
+        "Options": [
+          "Mitochondria",
+          "Nucleus",
+          "Chloroplast",
+          "Ribosome"
+        ],
+        "CorrectAnswers": [
+          "Chloroplast"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-4",
+        "Text": "Which of these is not a function of the liver?",
+        "Options": [
+          "Detoxification",
+          "Protein synthesis",
+          "Blood filtration",
+          "Insulin production"
+        ],
+        "CorrectAnswers": [
+          "Insulin production"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-5",
+        "Text": "Which of these are parts of a neuron?",
+        "Options": [
+          "Dendrite",
+          "Axon",
+          "Synapse",
+          "Nucleus",
+          "Myelin sheath"
+        ],
+        "CorrectAnswers": [
+          "Dendrite",
+          "Axon",
+          "Synapse",
+          "Myelin sheath"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "bio-6",
+        "Text": "The human body\u0027s largest organ is:",
+        "Options": [
+          "Liver",
+          "Brain",
+          "Skin",
+          "Heart"
+        ],
+        "CorrectAnswers": [
+          "Skin"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-7",
+        "Text": "Which of these is not a type of white blood cell?",
+        "Options": [
+          "Lymphocyte",
+          "Neutrophil",
+          "Erythrocyte",
+          "Monocyte"
+        ],
+        "CorrectAnswers": [
+          "Erythrocyte"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-8",
+        "Text": "DNA stands for:",
+        "Options": [
+          "Deoxyribonucleic acid",
+          "Denatured nucleic acid",
+          "Double nucleotide acid",
+          "Dual nitrogen acid"
+        ],
+        "CorrectAnswers": [
+          "Deoxyribonucleic acid"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-9",
+        "Text": "Which of these is not a kingdom in biological classification?",
+        "Options": [
+          "Animalia",
+          "Plantae",
+          "Fungi",
+          "Protista",
+          "Bacteria",
+          "Virus"
+        ],
+        "CorrectAnswers": [
+          "Virus"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-10",
+        "Text": "The process by which plants lose water through their leaves is called:",
+        "Options": [
+          "Photosynthesis",
+          "Transpiration",
+          "Respiration",
+          "Evaporation"
+        ],
+        "CorrectAnswers": [
+          "Transpiration"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-11",
+        "Text": "Which of these is not a bone in the human body?",
+        "Options": [
+          "Femur",
+          "Tibia",
+          "Radius",
+          "Patella",
+          "Aorta"
+        ],
+        "CorrectAnswers": [
+          "Aorta"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-12",
+        "Text": "The study of fungi is called:",
+        "Options": [
+          "Mycology",
+          "Entomology",
+          "Botany",
+          "Virology"
+        ],
+        "CorrectAnswers": [
+          "Mycology"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-13",
+        "Text": "Which vitamin is produced when human skin is exposed to sunlight?",
+        "Options": [
+          "Vitamin A",
+          "Vitamin B12",
+          "Vitamin C",
+          "Vitamin D"
+        ],
+        "CorrectAnswers": [
+          "Vitamin D"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-14",
+        "Text": "The smallest blood vessels in the human body are called:",
+        "Options": [
+          "Arteries",
+          "Veins",
+          "Capillaries",
+          "Venules"
+        ],
+        "CorrectAnswers": [
+          "Capillaries"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-15",
+        "Text": "Which part of the brain controls balance and coordination?",
+        "Options": [
+          "Cerebrum",
+          "Cerebellum",
+          "Medulla oblongata",
+          "Hypothalamus"
+        ],
+        "CorrectAnswers": [
+          "Cerebellum"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-16",
+        "Text": "The process by which cells divide to create two identical daughter cells is called:",
+        "Options": [
+          "Meiosis",
+          "Mitosis",
+          "Binary fission",
+          "Budding"
+        ],
+        "CorrectAnswers": [
+          "Mitosis"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-17",
+        "Text": "Which of these is not a type of muscle tissue?",
+        "Options": [
+          "Skeletal",
+          "Cardiac",
+          "Smooth",
+          "Elastic"
+        ],
+        "CorrectAnswers": [
+          "Elastic"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-18",
+        "Text": "The largest part of the human brain is the:",
+        "Options": [
+          "Cerebrum",
+          "Cerebellum",
+          "Brain stem",
+          "Thalamus"
+        ],
+        "CorrectAnswers": [
+          "Cerebrum"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-19",
+        "Text": "Which of these is not a function of the skeletal system?",
+        "Options": [
+          "Support",
+          "Protection",
+          "Movement",
+          "Hormone production"
+        ],
+        "CorrectAnswers": [
+          "Hormone production"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-20",
+        "Text": "The process by which plants make food using sunlight is called:",
+        "Options": [
+          "Respiration",
+          "Transpiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "CorrectAnswers": [
+          "Photosynthesis"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-21",
+        "Text": "Which of these is not a component of the central nervous system?",
+        "Options": [
+          "Brain",
+          "Spinal cord",
+          "Nerves",
+          "Neurons"
+        ],
+        "CorrectAnswers": [
+          "Nerves"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-22",
+        "Text": "The hormone insulin is produced by which organ?",
+        "Options": [
+          "Liver",
+          "Pancreas",
+          "Kidney",
+          "Stomach"
+        ],
+        "CorrectAnswers": [
+          "Pancreas"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-23",
+        "Text": "Which of these is not a type of RNA?",
+        "Options": [
+          "mRNA",
+          "tRNA",
+          "rRNA",
+          "dRNA"
+        ],
+        "CorrectAnswers": [
+          "dRNA"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-24",
+        "Text": "The study of insects is called:",
+        "Options": [
+          "Ornithology",
+          "Entomology",
+          "Herpetology",
+          "Ichthyology"
+        ],
+        "CorrectAnswers": [
+          "Entomology"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-25",
+        "Text": "Which of these is not a function of the kidneys?",
+        "Options": [
+          "Filter blood",
+          "Produce urine",
+          "Regulate blood pressure",
+          "Produce bile"
+        ],
+        "CorrectAnswers": [
+          "Produce bile"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-26",
+        "Text": "The smallest unit of an element is called:",
+        "Options": [
+          "Molecule",
+          "Atom",
+          "Cell",
+          "Compound"
+        ],
+        "CorrectAnswers": [
+          "Atom"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-27",
+        "Text": "Which of these is not a type of joint in the human body?",
+        "Options": [
+          "Hinge",
+          "Ball and socket",
+          "Pivot",
+          "Elastic"
+        ],
+        "CorrectAnswers": [
+          "Elastic"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-28",
+        "Text": "The process by which plants respond to light is called:",
+        "Options": [
+          "Gravitropism",
+          "Phototropism",
+          "Thigmotropism",
+          "Hydrotropism"
+        ],
+        "CorrectAnswers": [
+          "Phototropism"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-29",
+        "Text": "Which of these is not a primary taste sensation?",
+        "Options": [
+          "Sweet",
+          "Sour",
+          "Salty",
+          "Bitter",
+          "Umami",
+          "Spicy"
+        ],
+        "CorrectAnswers": [
+          "Spicy"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-30",
+        "Text": "The largest artery in the human body is the:",
+        "Options": [
+          "Pulmonary artery",
+          "Aorta",
+          "Coronary artery",
+          "Jugular vein"
+        ],
+        "CorrectAnswers": [
+          "Aorta"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-31",
+        "Text": "Which of these is not a function of the respiratory system?",
+        "Options": [
+          "Gas exchange",
+          "pH regulation",
+          "Sound production",
+          "Nutrient absorption"
+        ],
+        "CorrectAnswers": [
+          "Nutrient absorption"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-32",
+        "Text": "The process by which water moves across a semipermeable membrane is called:",
+        "Options": [
+          "Diffusion",
+          "Osmosis",
+          "Active transport",
+          "Facilitated diffusion"
+        ],
+        "CorrectAnswers": [
+          "Osmosis"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-33",
+        "Text": "Which of these is not a type of plant tissue?",
+        "Options": [
+          "Epidermal",
+          "Ground",
+          "Vascular",
+          "Muscular"
+        ],
+        "CorrectAnswers": [
+          "Muscular"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-34",
+        "Text": "The study of animal behavior is called:",
+        "Options": [
+          "Ecology",
+          "Ethology",
+          "Zoology",
+          "Psychology"
+        ],
+        "CorrectAnswers": [
+          "Ethology"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-35",
+        "Text": "Which of these is not a function of the lymphatic system?",
+        "Options": [
+          "Fluid balance",
+          "Immune defense",
+          "Fat absorption",
+          "Oxygen transport"
+        ],
+        "CorrectAnswers": [
+          "Oxygen transport"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-36",
+        "Text": "The process by which plants grow toward gravity is called:",
+        "Options": [
+          "Phototropism",
+          "Gravitropism",
+          "Thigmotropism",
+          "Hydrotropism"
+        ],
+        "CorrectAnswers": [
+          "Gravitropism"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-37",
+        "Text": "Which of these is not a function of the integumentary system?",
+        "Options": [
+          "Protection",
+          "Temperature regulation",
+          "Sensation",
+          "Hormone production"
+        ],
+        "CorrectAnswers": [
+          "Hormone production"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-38",
+        "Text": "The study of fish is called:",
+        "Options": [
+          "Ornithology",
+          "Herpetology",
+          "Ichthyology",
+          "Mammalogy"
+        ],
+        "CorrectAnswers": [
+          "Ichthyology"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-39",
+        "Text": "Which of these is not a function of the cardiovascular system?",
+        "Options": [
+          "Transport oxygen",
+          "Transport nutrients",
+          "Remove waste",
+          "Produce hormones"
+        ],
+        "CorrectAnswers": [
+          "Produce hormones"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "bio-40",
+        "Text": "The process by which cells engulf large particles is called:",
+        "Options": [
+          "Diffusion",
+          "Osmosis",
+          "Phagocytosis",
+          "Pinocytosis"
+        ],
+        "CorrectAnswers": [
+          "Phagocytosis"
+        ],
+        "isMultipleChoice": false
+      }
+    ],
+    "CorrectAnswersCount": 0
+  },
+  {
+    "Id": "quiz-4",
+    "Title": "Mixed Quiz",
+    "Category": 3,
+    "Questions": [
+      {
+        "Id": "mix-1",
+        "Text": "Which planet is known as the Red Planet?",
+        "Options": [
+          "Venus",
+          "Mars",
+          "Jupiter",
+          "Saturn"
+        ],
+        "CorrectAnswers": [
+          "Mars"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-2",
+        "Text": "Who painted the Mona Lisa?",
+        "Options": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "CorrectAnswers": [
+          "Leonardo da Vinci"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-3",
+        "Text": "Which of these elements is a noble gas?",
+        "Options": [
+          "Oxygen",
+          "Nitrogen",
+          "Helium",
+          "Chlorine"
+        ],
+        "CorrectAnswers": [
+          "Helium"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-4",
+        "Text": "Which Shakespeare play features the characters Romeo and Juliet?",
+        "Options": [
+          "Macbeth",
+          "Hamlet",
+          "Othello",
+          "Romeo and Juliet"
+        ],
+        "CorrectAnswers": [
+          "Romeo and Juliet"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-5",
+        "Text": "Which of these are primary colors of light?",
+        "Options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow",
+          "Cyan",
+          "Magenta"
+        ],
+        "CorrectAnswers": [
+          "Red",
+          "Blue",
+          "Green"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "mix-6",
+        "Text": "Which instrument measures atmospheric pressure?",
+        "Options": [
+          "Thermometer",
+          "Barometer",
+          "Hygrometer",
+          "Anemometer"
+        ],
+        "CorrectAnswers": [
+          "Barometer"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-7",
+        "Text": "Who wrote \u0027To Kill a Mockingbird\u0027?",
+        "Options": [
+          "Harper Lee",
+          "Mark Twain",
+          "J.D. Salinger",
+          "F. Scott Fitzgerald"
+        ],
+        "CorrectAnswers": [
+          "Harper Lee"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-8",
+        "Text": "What is the chemical symbol for gold?",
+        "Options": [
+          "Go",
+          "Gd",
+          "Au",
+          "Ag"
+        ],
+        "CorrectAnswers": [
+          "Au"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-9",
+        "Text": "Which of these is not a programming language?",
+        "Options": [
+          "Python",
+          "Java",
+          "HTML",
+          "C\u002B\u002B"
+        ],
+        "CorrectAnswers": [
+          "HTML"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-10",
+        "Text": "The theory of relativity was developed by:",
+        "Options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Galileo Galilei",
+          "Stephen Hawking"
+        ],
+        "CorrectAnswers": [
+          "Albert Einstein"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-11",
+        "Text": "Which of these is not a type of rock?",
+        "Options": [
+          "Igneous",
+          "Sedimentary",
+          "Metamorphic",
+          "Liquid"
+        ],
+        "CorrectAnswers": [
+          "Liquid"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-12",
+        "Text": "Who discovered penicillin?",
+        "Options": [
+          "Alexander Fleming",
+          "Louis Pasteur",
+          "Marie Curie",
+          "Robert Koch"
+        ],
+        "CorrectAnswers": [
+          "Alexander Fleming"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-13",
+        "Text": "Which planet has the most moons?",
+        "Options": [
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Neptune"
+        ],
+        "CorrectAnswers": [
+          "Saturn"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-14",
+        "Text": "The Great Pyramid of Giza was built for which pharaoh?",
+        "Options": [
+          "Tutankhamun",
+          "Ramses II",
+          "Khufu",
+          "Cleopatra"
+        ],
+        "CorrectAnswers": [
+          "Khufu"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-15",
+        "Text": "Which of these are types of electromagnetic radiation?",
+        "Options": [
+          "X-rays",
+          "Radio waves",
+          "Sound waves",
+          "Gamma rays",
+          "Ocean waves"
+        ],
+        "CorrectAnswers": [
+          "X-rays",
+          "Radio waves",
+          "Gamma rays"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "mix-16",
+        "Text": "Who composed the \u0027Moonlight Sonata\u0027?",
+        "Options": [
+          "Mozart",
+          "Beethoven",
+          "Bach",
+          "Chopin"
+        ],
+        "CorrectAnswers": [
+          "Beethoven"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-17",
+        "Text": "What is the largest planet in our solar system?",
+        "Options": [
+          "Earth",
+          "Jupiter",
+          "Saturn",
+          "Neptune"
+        ],
+        "CorrectAnswers": [
+          "Jupiter"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-18",
+        "Text": "Which of these is not a mammal?",
+        "Options": [
+          "Dolphin",
+          "Bat",
+          "Platypus",
+          "Penguin"
+        ],
+        "CorrectAnswers": [
+          "Penguin"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-19",
+        "Text": "The Eiffel Tower is located in which city?",
+        "Options": [
+          "London",
+          "Berlin",
+          "Paris",
+          "Rome"
+        ],
+        "CorrectAnswers": [
+          "Paris"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-20",
+        "Text": "Which gas makes up the majority of Earth\u0027s atmosphere?",
+        "Options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        "CorrectAnswers": [
+          "Nitrogen"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-21",
+        "Text": "Which of these is not a bone in the human body?",
+        "Options": [
+          "Femur",
+          "Tibia",
+          "Radius",
+          "Aorta"
+        ],
+        "CorrectAnswers": [
+          "Aorta"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-22",
+        "Text": "Who was the first person to walk on the moon?",
+        "Options": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "John Glenn"
+        ],
+        "CorrectAnswers": [
+          "Neil Armstrong"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-23",
+        "Text": "Which of these is not a prime number?",
+        "Options": [
+          "2",
+          "3",
+          "5",
+          "9"
+        ],
+        "CorrectAnswers": [
+          "9"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-24",
+        "Text": "The currency of Japan is:",
+        "Options": [
+          "Won",
+          "Yuan",
+          "Yen",
+          "Ringgit"
+        ],
+        "CorrectAnswers": [
+          "Yen"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-25",
+        "Text": "Which of these are noble prizes awarded in?",
+        "Options": [
+          "Physics",
+          "Chemistry",
+          "Medicine",
+          "Literature",
+          "Peace",
+          "Mathematics"
+        ],
+        "CorrectAnswers": [
+          "Physics",
+          "Chemistry",
+          "Medicine",
+          "Literature",
+          "Peace"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "mix-26",
+        "Text": "Which country is home to the kangaroo?",
+        "Options": [
+          "South Africa",
+          "Brazil",
+          "Australia",
+          "New Zealand"
+        ],
+        "CorrectAnswers": [
+          "Australia"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-27",
+        "Text": "The chemical symbol for sodium is:",
+        "Options": [
+          "So",
+          "Na",
+          "No",
+          "Sd"
+        ],
+        "CorrectAnswers": [
+          "Na"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-28",
+        "Text": "Who wrote \u00271984\u0027?",
+        "Options": [
+          "Aldous Huxley",
+          "George Orwell",
+          "Ray Bradbury",
+          "H.G. Wells"
+        ],
+        "CorrectAnswers": [
+          "George Orwell"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-29",
+        "Text": "Which of these is not a type of cloud?",
+        "Options": [
+          "Cumulus",
+          "Stratus",
+          "Cirrus",
+          "Solidus"
+        ],
+        "CorrectAnswers": [
+          "Solidus"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-30",
+        "Text": "The capital of New Zealand is:",
+        "Options": [
+          "Auckland",
+          "Christchurch",
+          "Wellington",
+          "Hamilton"
+        ],
+        "CorrectAnswers": [
+          "Wellington"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-31",
+        "Text": "Which of these is not a gas giant?",
+        "Options": [
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Mars"
+        ],
+        "CorrectAnswers": [
+          "Mars"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-32",
+        "Text": "The author of \u0027Pride and Prejudice\u0027 is:",
+        "Options": [
+          "Charlotte Bront\u00EB",
+          "Jane Austen",
+          "Emily Bront\u00EB",
+          "Virginia Woolf"
+        ],
+        "CorrectAnswers": [
+          "Jane Austen"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-33",
+        "Text": "Which of these is not a type of triangle?",
+        "Options": [
+          "Equilateral",
+          "Isosceles",
+          "Scalene",
+          "Rectangular"
+        ],
+        "CorrectAnswers": [
+          "Rectangular"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-34",
+        "Text": "The largest desert in the world is:",
+        "Options": [
+          "Sahara",
+          "Arabian",
+          "Gobi",
+          "Antarctic"
+        ],
+        "CorrectAnswers": [
+          "Antarctic"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-35",
+        "Text": "Which of these are types of renewable energy?",
+        "Options": [
+          "Solar",
+          "Wind",
+          "Coal",
+          "Natural gas",
+          "Hydroelectric",
+          "Nuclear"
+        ],
+        "CorrectAnswers": [
+          "Solar",
+          "Wind",
+          "Hydroelectric"
+        ],
+        "isMultipleChoice": true
+      },
+      {
+        "Id": "mix-36",
+        "Text": "The inventor of the telephone was:",
+        "Options": [
+          "Thomas Edison",
+          "Alexander Graham Bell",
+          "Nikola Tesla",
+          "Guglielmo Marconi"
+        ],
+        "CorrectAnswers": [
+          "Alexander Graham Bell"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-37",
+        "Text": "Which of these is not a zodiac sign?",
+        "Options": [
+          "Leo",
+          "Libra",
+          "Orion",
+          "Cancer"
+        ],
+        "CorrectAnswers": [
+          "Orion"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-38",
+        "Text": "The longest river in Europe is:",
+        "Options": [
+          "Danube",
+          "Rhine",
+          "Volga",
+          "Thames"
+        ],
+        "CorrectAnswers": [
+          "Volga"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-39",
+        "Text": "Which of these is not a type of volcano?",
+        "Options": [
+          "Shield",
+          "Composite",
+          "Cinder cone",
+          "Flat"
+        ],
+        "CorrectAnswers": [
+          "Flat"
+        ],
+        "isMultipleChoice": false
+      },
+      {
+        "Id": "mix-40",
+        "Text": "The artist who painted \u0027The Starry Night\u0027 was:",
+        "Options": [
+          "Pablo Picasso",
+          "Vincent van Gogh",
+          "Claude Monet",
+          "Salvador Dal\u00ED"
+        ],
+        "CorrectAnswers": [
+          "Vincent van Gogh"
+        ],
+        "isMultipleChoice": false
+      }
+    ],
+    "CorrectAnswersCount": 0
+  }
+]
