@@ -1,4 +1,5 @@
-﻿using QuizGame.Entities;
+﻿using System.Text.RegularExpressions;
+using QuizGame.Entities;
 using QuizGame.Exceptions;
 using QuizGame.Services.Abstract;
 
@@ -9,15 +10,38 @@ public class UserService : BaseService, IUserService
     public UserService(Database.Database database) : base(database)
     {
     }
+    public bool ValidateUsername(string username)
+    {
+        // Ən az 8 simvol, ən az 1 böyük hərf, ən az 1 rəqəm
+        var usernameRegex = new Regex(@"^(?=.*[A-Z])(?=.*\d).{8,}$");
+        return usernameRegex.IsMatch(username);
+    }
+
+    public bool ValidatePassword(string password)
+    {
+        // Dəqiq 8 simvol, ən az 2 rəqəm, ən az 1 xüsusi simvol, yalnız kiçik hərflər
+        var passwordRegex = new Regex(@"^(?=(.*\d){2})(?=.*[!@#$%^&*]).{8}$");
+        return password.Length == 8 &&
+               password.ToLower() == password &&
+               passwordRegex.IsMatch(password);
+    }
+    public void DeleteUser(string userId)
+    {
+        if (string.IsNullOrEmpty(userId))
+        {
+            throw new UserNotFoundException("User ID cannot be null or empty.");
+        }
+        _database?.Users?.RemoveAll(u => u.Id == userId);
+    }
 
     public User? GetUserById(string userId)
     {
-        var User = _database.Users?.FirstOrDefault(u => u.Id == userId);
-        if (User == null)
+        var user = _database.Users?.FirstOrDefault(u => u.Id == userId);
+        if (user == null)
         {
             throw new UserNotFoundException($"User not found with ID: {userId}");
         }
-        return User;
+        return user;
     }
 
     public User? Login(string username, string password)
@@ -88,5 +112,16 @@ public class UserService : BaseService, IUserService
             }
             user.Birthdate = birthdate.Value;
         }
+    }
+
+    public bool ValidateBirthdate(DateTime birthdate)
+    {
+        int yearNow = DateTime.Now.Year;
+        int birthtadeYear = birthdate.Year;
+        if(yearNow - birthtadeYear < 18)
+        {
+            return false; // User must be at least 18 years old
+        }
+        return true; // User is 18 or older
     }
 }

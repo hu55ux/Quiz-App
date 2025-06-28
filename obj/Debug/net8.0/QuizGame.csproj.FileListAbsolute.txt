@@ -12,3 +12,4 @@ C:\Users\user\Desktop\C++\QuizGame\QuizGame\obj\Debug\net8.0\refint\QuizGame.dll
 C:\Users\user\Desktop\C++\QuizGame\QuizGame\obj\Debug\net8.0\QuizGame.pdb
 C:\Users\user\Desktop\C++\QuizGame\QuizGame\obj\Debug\net8.0\QuizGame.genruntimeconfig.cache
 C:\Users\user\Desktop\C++\QuizGame\QuizGame\obj\Debug\net8.0\ref\QuizGame.dll
+C:\Users\user\Desktop\C++\QuizGame\QuizGame\obj\Debug\net8.0\QuizGame.sourcelink.json

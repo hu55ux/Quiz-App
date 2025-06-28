@@ -33,7 +33,7 @@ public class Database
         GeographyQuiz = quizzes.First(q => q.Category == QuizCategory.Geography);
         BiologyQuiz = quizzes.First(q => q.Category == QuizCategory.Biology);
         MixedQuiz = quizzes.First(q => q.Category == QuizCategory.Mixed);
-        //Results = JsonHelper.LoadListFromJson<Result>(jsonResults);
+        Results = JsonHelper.LoadListFromJson<Result>(jsonResults);
     }
 
     public void SaveAll()
@@ -43,7 +43,7 @@ public class Database
         JsonHelper.SaveToJson(GeographyQuiz, jsongeographyQuiz);
         JsonHelper.SaveToJson(BiologyQuiz, jsonbiologyQuiz);
         JsonHelper.SaveToJson(MixedQuiz, jsonmixedQuiz);
-        //JsonHelper.SaveToJson(Results, jsonResults);
+        JsonHelper.SaveToJson(Results, jsonResults);
     }
 
 

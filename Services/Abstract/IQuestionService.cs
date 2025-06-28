@@ -1,7 +1,8 @@
-﻿namespace QuizGame.Services.Abstract;
+﻿using QuizGame.Entities;
+namespace QuizGame.Services.Abstract;
 
 public interface IQuestionService
 {
-    public List<string> GetCorrectOptions(string quizId, string questionId);
-
+    public List<string> GetCorrectOptions(Question question);
+    public bool IsCorrect(Question question,List<string> answers);
 }
