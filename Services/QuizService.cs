@@ -36,7 +36,7 @@ public class QuizService : BaseService, IQuizService
             Random randomizer = new Random();
             questions = questions.OrderBy(q => randomizer.Next()).ToList();
         }
-        return questions.ToList();
+        return questions.Take(20).ToList();
     }
 
     public Quiz? GetQuizByCategory(string category)
@@ -65,6 +65,8 @@ public class QuizService : BaseService, IQuizService
         };
         return categories;
     }
+
+
 
     public List<Result> GetResultsByUserId(string userId)
     {
@@ -109,5 +111,76 @@ public class QuizService : BaseService, IQuizService
     {
         quiz.Questions.RemoveAll(q => q.Id == question.Id);
         quiz.Questions.Add(question);
+    }
+
+    public void StartQuiz(string category, string userId)
+    {
+        var quiz = GetQuizByCategory(category);
+        var questions = GetQuestions(quiz, true);
+
+        foreach (var question in questions)
+        {
+            Console.WriteLine($"Category: {quiz.Category.ToString()}");
+            Console.WriteLine($"Question: {question.Text}");
+            Console.WriteLine("Options:");
+            for (int i = 0; i < question.Options.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {question.Options[i]}");
+            }
+            Console.Write("Your answer (comma separated for multiple choice (1 - 4)): ");
+            var userAnswer = Console.ReadLine()?.Trim();
+            if (userAnswer == null)
+            {
+                Console.WriteLine("Invalid input. Please try again.");
+                continue;
+            }
+            var userAnswers = userAnswer.Split(',').Select(a => a.Trim()).ToList();
+            if (question.isMultipleChoice)
+            {
+                if (userAnswers.All(a => question.CorrectAnswers.Contains(a)))
+                {
+                    CorrectAnswer(quiz);
+                    Console.WriteLine("Correct answer!");
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect answer.");
+                }
+            }
+            else
+            {
+                if (userAnswers.Count == 1 && question.CorrectAnswers.Contains(userAnswers[0]))
+                {
+                    CorrectAnswer(quiz);
+                    Console.WriteLine("Correct answer!");
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect answer.");
+                }
+            }
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+        }
+        var result = ResultQuiz(category, userId);
+        if (result != null)
+        {
+            SendResults(result);
+            Console.WriteLine($"Quiz completed! Your score: {result.Score}");
+        }
+        else
+        {
+            Console.WriteLine("Error calculating results.");
+        }
+
+    }
+
+    public List<Result> GetResultByCategory(string category)
+    {
+        return _database?.Results?
+            .Where(r => r.QuizId == GetQuizByCategory(category)?.Id)
+            .OrderByDescending(r => r.Score)
+            .Take(20)
+            .ToList() ?? new List<Result>();
     }
 }

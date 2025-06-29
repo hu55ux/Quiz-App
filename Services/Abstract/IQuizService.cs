@@ -14,4 +14,7 @@ public interface IQuizService
     public void AddQuestion(Quiz quiz, Question question);
     public void RemoveQuestion(Quiz quiz, string questionId);
     public void UpdateQuestion(Quiz quiz, Question question);
+    public void StartQuiz(string category, string userId);
+
+    public List<Result> GetResultByCategory(string category);
 }
