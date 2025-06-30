@@ -1,0 +1,571 @@
+{
+  "Id": "quiz-1",
+  "Title": "History Quiz",
+  "Category": 0,
+  "Questions": [
+    {
+      "Id": "hist-1",
+      "Text": "In which year did World War II end?",
+      "Options": [
+        "1943",
+        "1945",
+        "1950",
+        "1939"
+      ],
+      "CorrectAnswers": [
+        "1945"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-2",
+      "Text": "Who was the first president of the United States?",
+      "Options": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "Abraham Lincoln"
+      ],
+      "CorrectAnswers": [
+        "George Washington"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-3",
+      "Text": "Which ancient civilization built the pyramids?",
+      "Options": [
+        "Greeks",
+        "Romans",
+        "Egyptians",
+        "Mayans"
+      ],
+      "CorrectAnswers": [
+        "Egyptians"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-4",
+      "Text": "Which of these events happened during the Middle Ages?",
+      "Options": [
+        "The Crusades",
+        "The American Revolution",
+        "World War I",
+        "The Industrial Revolution"
+      ],
+      "CorrectAnswers": [
+        "The Crusades"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-5",
+      "Text": "Which countries were part of the Axis powers in WWII?",
+      "Options": [
+        "Germany",
+        "Italy",
+        "Japan",
+        "United States",
+        "France"
+      ],
+      "CorrectAnswers": [
+        "Germany",
+        "Italy",
+        "Japan"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "hist-6",
+      "Text": "The Renaissance began in which country?",
+      "Options": [
+        "France",
+        "England",
+        "Italy",
+        "Spain"
+      ],
+      "CorrectAnswers": [
+        "Italy"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-7",
+      "Text": "Who wrote the 95 Theses?",
+      "Options": [
+        "John Calvin",
+        "Martin Luther",
+        "Henry VIII",
+        "Pope Leo X"
+      ],
+      "CorrectAnswers": [
+        "Martin Luther"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-8",
+      "Text": "The Industrial Revolution began in which country?",
+      "Options": [
+        "United States",
+        "France",
+        "Germany",
+        "Great Britain"
+      ],
+      "CorrectAnswers": [
+        "Great Britain"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-9",
+      "Text": "Which ancient wonder was located in Babylon?",
+      "Options": [
+        "Great Pyramid",
+        "Hanging Gardens",
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria"
+      ],
+      "CorrectAnswers": [
+        "Hanging Gardens"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-10",
+      "Text": "The Magna Carta was signed in which year?",
+      "Options": [
+        "1066",
+        "1215",
+        "1492",
+        "1776"
+      ],
+      "CorrectAnswers": [
+        "1215"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-11",
+      "Text": "Who was the leader of the Soviet Union during WWII?",
+      "Options": [
+        "Vladimir Lenin",
+        "Joseph Stalin",
+        "Nikita Khrushchev",
+        "Leon Trotsky"
+      ],
+      "CorrectAnswers": [
+        "Joseph Stalin"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-12",
+      "Text": "Which civilization invented paper?",
+      "Options": [
+        "Ancient Egyptians",
+        "Ancient Chinese",
+        "Ancient Greeks",
+        "Ancient Romans"
+      ],
+      "CorrectAnswers": [
+        "Ancient Chinese"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-13",
+      "Text": "The French Revolution began in which year?",
+      "Options": [
+        "1776",
+        "1789",
+        "1812",
+        "1688"
+      ],
+      "CorrectAnswers": [
+        "1789"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-14",
+      "Text": "Which explorer reached India by sea?",
+      "Options": [
+        "Christopher Columbus",
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "Marco Polo"
+      ],
+      "CorrectAnswers": [
+        "Vasco da Gama"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-15",
+      "Text": "The Berlin Wall fell in which year?",
+      "Options": [
+        "1985",
+        "1989",
+        "1991",
+        "1975"
+      ],
+      "CorrectAnswers": [
+        "1989"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-16",
+      "Text": "Who was the first female pharaoh of Egypt?",
+      "Options": [
+        "Nefertiti",
+        "Cleopatra",
+        "Hatshepsut",
+        "Merneith"
+      ],
+      "CorrectAnswers": [
+        "Hatshepsut"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-17",
+      "Text": "Which empire was ruled by Suleiman the Magnificent?",
+      "Options": [
+        "Roman Empire",
+        "Ottoman Empire",
+        "British Empire",
+        "Mongol Empire"
+      ],
+      "CorrectAnswers": [
+        "Ottoman Empire"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-18",
+      "Text": "The Declaration of Independence was signed in which year?",
+      "Options": [
+        "1776",
+        "1789",
+        "1799",
+        "1812"
+      ],
+      "CorrectAnswers": [
+        "1776"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-19",
+      "Text": "Which ancient city was destroyed by a volcanic eruption?",
+      "Options": [
+        "Athens",
+        "Pompeii",
+        "Troy",
+        "Carthage"
+      ],
+      "CorrectAnswers": [
+        "Pompeii"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-20",
+      "Text": "Who invented the printing press?",
+      "Options": [
+        "Leonardo da Vinci",
+        "Galileo Galilei",
+        "Johannes Gutenberg",
+        "Isaac Newton"
+      ],
+      "CorrectAnswers": [
+        "Johannes Gutenberg"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-21",
+      "Text": "The Hundred Years\u0027 War was between which two countries?",
+      "Options": [
+        "England and France",
+        "Spain and Portugal",
+        "Germany and Italy",
+        "Russia and Poland"
+      ],
+      "CorrectAnswers": [
+        "England and France"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-22",
+      "Text": "Which Chinese dynasty built the Great Wall?",
+      "Options": [
+        "Han",
+        "Tang",
+        "Ming",
+        "Qin"
+      ],
+      "CorrectAnswers": [
+        "Qin"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-23",
+      "Text": "The Treaty of Versailles ended which war?",
+      "Options": [
+        "World War I",
+        "World War II",
+        "Napoleonic Wars",
+        "Franco-Prussian War"
+      ],
+      "CorrectAnswers": [
+        "World War I"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-24",
+      "Text": "Who was the first emperor of Rome?",
+      "Options": [
+        "Julius Caesar",
+        "Augustus",
+        "Nero",
+        "Constantine"
+      ],
+      "CorrectAnswers": [
+        "Augustus"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-25",
+      "Text": "The Silk Road connected which regions?",
+      "Options": [
+        "Europe and Africa",
+        "Europe and Asia",
+        "Asia and Africa",
+        "America and Asia"
+      ],
+      "CorrectAnswers": [
+        "Europe and Asia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-26",
+      "Text": "Which country was not part of the Allied powers in WWII?",
+      "Options": [
+        "United States",
+        "Soviet Union",
+        "Germany",
+        "Great Britain"
+      ],
+      "CorrectAnswers": [
+        "Germany"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-27",
+      "Text": "The Black Death occurred during which century?",
+      "Options": [
+        "12th",
+        "14th",
+        "16th",
+        "18th"
+      ],
+      "CorrectAnswers": [
+        "14th"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-28",
+      "Text": "Who was the first European to reach North America?",
+      "Options": [
+        "Christopher Columbus",
+        "Leif Erikson",
+        "John Cabot",
+        "Amerigo Vespucci"
+      ],
+      "CorrectAnswers": [
+        "Leif Erikson"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-29",
+      "Text": "The Cold War was primarily between which two countries?",
+      "Options": [
+        "USA and China",
+        "USA and Soviet Union",
+        "China and Soviet Union",
+        "USA and Germany"
+      ],
+      "CorrectAnswers": [
+        "USA and Soviet Union"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-30",
+      "Text": "Which civilization invented democracy?",
+      "Options": [
+        "Ancient Romans",
+        "Ancient Egyptians",
+        "Ancient Greeks",
+        "Ancient Chinese"
+      ],
+      "CorrectAnswers": [
+        "Ancient Greeks"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-31",
+      "Text": "The American Civil War was fought between which years?",
+      "Options": [
+        "1775-1783",
+        "1812-1815",
+        "1861-1865",
+        "1914-1918"
+      ],
+      "CorrectAnswers": [
+        "1861-1865"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-32",
+      "Text": "Who was the first female Prime Minister of the UK?",
+      "Options": [
+        "Queen Elizabeth I",
+        "Margaret Thatcher",
+        "Theresa May",
+        "Indira Gandhi"
+      ],
+      "CorrectAnswers": [
+        "Margaret Thatcher"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-33",
+      "Text": "The Boxer Rebellion occurred in which country?",
+      "Options": [
+        "Japan",
+        "India",
+        "China",
+        "Vietnam"
+      ],
+      "CorrectAnswers": [
+        "China"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-34",
+      "Text": "Which empire was ruled by Genghis Khan?",
+      "Options": [
+        "Persian Empire",
+        "Mongol Empire",
+        "Ottoman Empire",
+        "Roman Empire"
+      ],
+      "CorrectAnswers": [
+        "Mongol Empire"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-35",
+      "Text": "The Spanish Armada was defeated by which country?",
+      "Options": [
+        "France",
+        "Portugal",
+        "England",
+        "Netherlands"
+      ],
+      "CorrectAnswers": [
+        "England"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-36",
+      "Text": "Which country was not part of the Triple Entente in WWI?",
+      "Options": [
+        "France",
+        "Russia",
+        "Great Britain",
+        "Germany"
+      ],
+      "CorrectAnswers": [
+        "Germany"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-37",
+      "Text": "The first successful English colony in America was?",
+      "Options": [
+        "Plymouth",
+        "Jamestown",
+        "Roanoke",
+        "New Amsterdam"
+      ],
+      "CorrectAnswers": [
+        "Jamestown"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-38",
+      "Text": "Which revolution began with the storming of the Bastille?",
+      "Options": [
+        "American Revolution",
+        "French Revolution",
+        "Russian Revolution",
+        "Industrial Revolution"
+      ],
+      "CorrectAnswers": [
+        "French Revolution"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-39",
+      "Text": "The first atomic bombs were dropped on which Japanese cities?",
+      "Options": [
+        "Tokyo and Kyoto",
+        "Hiroshima and Nagasaki",
+        "Osaka and Yokohama",
+        "Nagasaki and Tokyo"
+      ],
+      "CorrectAnswers": [
+        "Hiroshima and Nagasaki"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "hist-40",
+      "Text": "Which ancient civilization developed the concept of zero?",
+      "Options": [
+        "Egyptians",
+        "Greeks",
+        "Mayans",
+        "Indians"
+      ],
+      "CorrectAnswers": [
+        "Indians"
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "CorrectAnswersCount": 0
+}

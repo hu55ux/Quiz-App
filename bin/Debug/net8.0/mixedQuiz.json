@@ -1,0 +1,585 @@
+{
+  "Id": "quiz-4",
+  "Title": "Mixed Quiz",
+  "Category": 3,
+  "Questions": [
+    {
+      "Id": "mix-1",
+      "Text": "Which planet is known as the Red Planet?",
+      "Options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "CorrectAnswers": [
+        "Mars"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-2",
+      "Text": "Who painted the Mona Lisa?",
+      "Options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ],
+      "CorrectAnswers": [
+        "Leonardo da Vinci"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-3",
+      "Text": "Which of these elements is a noble gas?",
+      "Options": [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Chlorine"
+      ],
+      "CorrectAnswers": [
+        "Helium"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-4",
+      "Text": "Which Shakespeare play features the characters Romeo and Juliet?",
+      "Options": [
+        "Macbeth",
+        "Hamlet",
+        "Othello",
+        "Romeo and Juliet"
+      ],
+      "CorrectAnswers": [
+        "Romeo and Juliet"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-5",
+      "Text": "Which of these are primary colors of light?",
+      "Options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Cyan",
+        "Magenta"
+      ],
+      "CorrectAnswers": [
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "mix-6",
+      "Text": "Which instrument measures atmospheric pressure?",
+      "Options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "CorrectAnswers": [
+        "Barometer"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-7",
+      "Text": "Who wrote \u0027To Kill a Mockingbird\u0027?",
+      "Options": [
+        "Harper Lee",
+        "Mark Twain",
+        "J.D. Salinger",
+        "F. Scott Fitzgerald"
+      ],
+      "CorrectAnswers": [
+        "Harper Lee"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-8",
+      "Text": "What is the chemical symbol for gold?",
+      "Options": [
+        "Go",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "CorrectAnswers": [
+        "Au"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-9",
+      "Text": "Which of these is not a programming language?",
+      "Options": [
+        "Python",
+        "Java",
+        "HTML",
+        "C\u002B\u002B"
+      ],
+      "CorrectAnswers": [
+        "HTML"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-10",
+      "Text": "The theory of relativity was developed by:",
+      "Options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Stephen Hawking"
+      ],
+      "CorrectAnswers": [
+        "Albert Einstein"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-11",
+      "Text": "Which of these is not a type of rock?",
+      "Options": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Liquid"
+      ],
+      "CorrectAnswers": [
+        "Liquid"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-12",
+      "Text": "Who discovered penicillin?",
+      "Options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Robert Koch"
+      ],
+      "CorrectAnswers": [
+        "Alexander Fleming"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-13",
+      "Text": "Which planet has the most moons?",
+      "Options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "CorrectAnswers": [
+        "Saturn"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-14",
+      "Text": "The Great Pyramid of Giza was built for which pharaoh?",
+      "Options": [
+        "Tutankhamun",
+        "Ramses II",
+        "Khufu",
+        "Cleopatra"
+      ],
+      "CorrectAnswers": [
+        "Khufu"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-15",
+      "Text": "Which of these are types of electromagnetic radiation?",
+      "Options": [
+        "X-rays",
+        "Radio waves",
+        "Sound waves",
+        "Gamma rays",
+        "Ocean waves"
+      ],
+      "CorrectAnswers": [
+        "X-rays",
+        "Radio waves",
+        "Gamma rays"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "mix-16",
+      "Text": "Who composed the \u0027Moonlight Sonata\u0027?",
+      "Options": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "CorrectAnswers": [
+        "Beethoven"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-17",
+      "Text": "What is the largest planet in our solar system?",
+      "Options": [
+        "Earth",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "CorrectAnswers": [
+        "Jupiter"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-18",
+      "Text": "Which of these is not a mammal?",
+      "Options": [
+        "Dolphin",
+        "Bat",
+        "Platypus",
+        "Penguin"
+      ],
+      "CorrectAnswers": [
+        "Penguin"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-19",
+      "Text": "The Eiffel Tower is located in which city?",
+      "Options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Rome"
+      ],
+      "CorrectAnswers": [
+        "Paris"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-20",
+      "Text": "Which gas makes up the majority of Earth\u0027s atmosphere?",
+      "Options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "CorrectAnswers": [
+        "Nitrogen"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-21",
+      "Text": "Which of these is not a bone in the human body?",
+      "Options": [
+        "Femur",
+        "Tibia",
+        "Radius",
+        "Aorta"
+      ],
+      "CorrectAnswers": [
+        "Aorta"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-22",
+      "Text": "Who was the first person to walk on the moon?",
+      "Options": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "CorrectAnswers": [
+        "Neil Armstrong"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-23",
+      "Text": "Which of these is not a prime number?",
+      "Options": [
+        "2",
+        "3",
+        "5",
+        "9"
+      ],
+      "CorrectAnswers": [
+        "9"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-24",
+      "Text": "The currency of Japan is:",
+      "Options": [
+        "Won",
+        "Yuan",
+        "Yen",
+        "Ringgit"
+      ],
+      "CorrectAnswers": [
+        "Yen"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-25",
+      "Text": "Which of these are noble prizes awarded in?",
+      "Options": [
+        "Physics",
+        "Chemistry",
+        "Medicine",
+        "Literature",
+        "Peace",
+        "Mathematics"
+      ],
+      "CorrectAnswers": [
+        "Physics",
+        "Chemistry",
+        "Medicine",
+        "Literature",
+        "Peace"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "mix-26",
+      "Text": "Which country is home to the kangaroo?",
+      "Options": [
+        "South Africa",
+        "Brazil",
+        "Australia",
+        "New Zealand"
+      ],
+      "CorrectAnswers": [
+        "Australia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-27",
+      "Text": "The chemical symbol for sodium is:",
+      "Options": [
+        "So",
+        "Na",
+        "No",
+        "Sd"
+      ],
+      "CorrectAnswers": [
+        "Na"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-28",
+      "Text": "Who wrote \u00271984\u0027?",
+      "Options": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "H.G. Wells"
+      ],
+      "CorrectAnswers": [
+        "George Orwell"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-29",
+      "Text": "Which of these is not a type of cloud?",
+      "Options": [
+        "Cumulus",
+        "Stratus",
+        "Cirrus",
+        "Solidus"
+      ],
+      "CorrectAnswers": [
+        "Solidus"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-30",
+      "Text": "The capital of New Zealand is:",
+      "Options": [
+        "Auckland",
+        "Christchurch",
+        "Wellington",
+        "Hamilton"
+      ],
+      "CorrectAnswers": [
+        "Wellington"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-31",
+      "Text": "Which of these is not a gas giant?",
+      "Options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Mars"
+      ],
+      "CorrectAnswers": [
+        "Mars"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-32",
+      "Text": "The author of \u0027Pride and Prejudice\u0027 is:",
+      "Options": [
+        "Charlotte Bront\u00EB",
+        "Jane Austen",
+        "Emily Bront\u00EB",
+        "Virginia Woolf"
+      ],
+      "CorrectAnswers": [
+        "Jane Austen"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-33",
+      "Text": "Which of these is not a type of triangle?",
+      "Options": [
+        "Equilateral",
+        "Isosceles",
+        "Scalene",
+        "Rectangular"
+      ],
+      "CorrectAnswers": [
+        "Rectangular"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-34",
+      "Text": "The largest desert in the world is:",
+      "Options": [
+        "Sahara",
+        "Arabian",
+        "Gobi",
+        "Antarctic"
+      ],
+      "CorrectAnswers": [
+        "Antarctic"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-35",
+      "Text": "Which of these are types of renewable energy?",
+      "Options": [
+        "Solar",
+        "Wind",
+        "Coal",
+        "Natural gas",
+        "Hydroelectric",
+        "Nuclear"
+      ],
+      "CorrectAnswers": [
+        "Solar",
+        "Wind",
+        "Hydroelectric"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "mix-36",
+      "Text": "The inventor of the telephone was:",
+      "Options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "CorrectAnswers": [
+        "Alexander Graham Bell"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-37",
+      "Text": "Which of these is not a zodiac sign?",
+      "Options": [
+        "Leo",
+        "Libra",
+        "Orion",
+        "Cancer"
+      ],
+      "CorrectAnswers": [
+        "Orion"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-38",
+      "Text": "The longest river in Europe is:",
+      "Options": [
+        "Danube",
+        "Rhine",
+        "Volga",
+        "Thames"
+      ],
+      "CorrectAnswers": [
+        "Volga"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-39",
+      "Text": "Which of these is not a type of volcano?",
+      "Options": [
+        "Shield",
+        "Composite",
+        "Cinder cone",
+        "Flat"
+      ],
+      "CorrectAnswers": [
+        "Flat"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "mix-40",
+      "Text": "The artist who painted \u0027The Starry Night\u0027 was:",
+      "Options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Salvador Dal\u00ED"
+      ],
+      "CorrectAnswers": [
+        "Vincent van Gogh"
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "CorrectAnswersCount": 0
+}

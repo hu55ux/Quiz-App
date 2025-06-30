@@ -9,6 +9,6 @@ public class Result
 
     override public string ToString()
     {
-        return $"Quiz ID: {QuizId}, Score: {Score}";
+        return $"User: {UserName} (ID: {UserId}), Quiz ID: {QuizId}, Score: {Score}";
     }
 }

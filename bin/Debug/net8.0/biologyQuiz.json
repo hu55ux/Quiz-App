@@ -1,0 +1,577 @@
+{
+  "Id": "quiz-3",
+  "Title": "Biology Quiz",
+  "Category": 2,
+  "Questions": [
+    {
+      "Id": "bio-1",
+      "Text": "What is the basic unit of life?",
+      "Options": [
+        "Atom",
+        "Cell",
+        "Molecule",
+        "Organ"
+      ],
+      "CorrectAnswers": [
+        "Cell"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-2",
+      "Text": "Which of these is not one of the four main blood types?",
+      "Options": [
+        "A",
+        "B",
+        "AB",
+        "C"
+      ],
+      "CorrectAnswers": [
+        "C"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-3",
+      "Text": "Photosynthesis occurs in which part of the plant cell?",
+      "Options": [
+        "Mitochondria",
+        "Nucleus",
+        "Chloroplast",
+        "Ribosome"
+      ],
+      "CorrectAnswers": [
+        "Chloroplast"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-4",
+      "Text": "Which of these is not a function of the liver?",
+      "Options": [
+        "Detoxification",
+        "Protein synthesis",
+        "Blood filtration",
+        "Insulin production"
+      ],
+      "CorrectAnswers": [
+        "Insulin production"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-5",
+      "Text": "Which of these are parts of a neuron?",
+      "Options": [
+        "Dendrite",
+        "Axon",
+        "Synapse",
+        "Nucleus",
+        "Myelin sheath"
+      ],
+      "CorrectAnswers": [
+        "Dendrite",
+        "Axon",
+        "Synapse",
+        "Myelin sheath"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "bio-6",
+      "Text": "The human body\u0027s largest organ is:",
+      "Options": [
+        "Liver",
+        "Brain",
+        "Skin",
+        "Heart"
+      ],
+      "CorrectAnswers": [
+        "Skin"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-7",
+      "Text": "Which of these is not a type of white blood cell?",
+      "Options": [
+        "Lymphocyte",
+        "Neutrophil",
+        "Erythrocyte",
+        "Monocyte"
+      ],
+      "CorrectAnswers": [
+        "Erythrocyte"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-8",
+      "Text": "DNA stands for:",
+      "Options": [
+        "Deoxyribonucleic acid",
+        "Denatured nucleic acid",
+        "Double nucleotide acid",
+        "Dual nitrogen acid"
+      ],
+      "CorrectAnswers": [
+        "Deoxyribonucleic acid"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-9",
+      "Text": "Which of these is not a kingdom in biological classification?",
+      "Options": [
+        "Animalia",
+        "Plantae",
+        "Fungi",
+        "Protista",
+        "Bacteria",
+        "Virus"
+      ],
+      "CorrectAnswers": [
+        "Virus"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-10",
+      "Text": "The process by which plants lose water through their leaves is called:",
+      "Options": [
+        "Photosynthesis",
+        "Transpiration",
+        "Respiration",
+        "Evaporation"
+      ],
+      "CorrectAnswers": [
+        "Transpiration"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-11",
+      "Text": "Which of these is not a bone in the human body?",
+      "Options": [
+        "Femur",
+        "Tibia",
+        "Radius",
+        "Patella",
+        "Aorta"
+      ],
+      "CorrectAnswers": [
+        "Aorta"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-12",
+      "Text": "The study of fungi is called:",
+      "Options": [
+        "Mycology",
+        "Entomology",
+        "Botany",
+        "Virology"
+      ],
+      "CorrectAnswers": [
+        "Mycology"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-13",
+      "Text": "Which vitamin is produced when human skin is exposed to sunlight?",
+      "Options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "CorrectAnswers": [
+        "Vitamin D"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-14",
+      "Text": "The smallest blood vessels in the human body are called:",
+      "Options": [
+        "Arteries",
+        "Veins",
+        "Capillaries",
+        "Venules"
+      ],
+      "CorrectAnswers": [
+        "Capillaries"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-15",
+      "Text": "Which part of the brain controls balance and coordination?",
+      "Options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla oblongata",
+        "Hypothalamus"
+      ],
+      "CorrectAnswers": [
+        "Cerebellum"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-16",
+      "Text": "The process by which cells divide to create two identical daughter cells is called:",
+      "Options": [
+        "Meiosis",
+        "Mitosis",
+        "Binary fission",
+        "Budding"
+      ],
+      "CorrectAnswers": [
+        "Mitosis"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-17",
+      "Text": "Which of these is not a type of muscle tissue?",
+      "Options": [
+        "Skeletal",
+        "Cardiac",
+        "Smooth",
+        "Elastic"
+      ],
+      "CorrectAnswers": [
+        "Elastic"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-18",
+      "Text": "The largest part of the human brain is the:",
+      "Options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Brain stem",
+        "Thalamus"
+      ],
+      "CorrectAnswers": [
+        "Cerebrum"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-19",
+      "Text": "Which of these is not a function of the skeletal system?",
+      "Options": [
+        "Support",
+        "Protection",
+        "Movement",
+        "Hormone production"
+      ],
+      "CorrectAnswers": [
+        "Hormone production"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-20",
+      "Text": "The process by which plants make food using sunlight is called:",
+      "Options": [
+        "Respiration",
+        "Transpiration",
+        "Photosynthesis",
+        "Fermentation"
+      ],
+      "CorrectAnswers": [
+        "Photosynthesis"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-21",
+      "Text": "Which of these is not a component of the central nervous system?",
+      "Options": [
+        "Brain",
+        "Spinal cord",
+        "Nerves",
+        "Neurons"
+      ],
+      "CorrectAnswers": [
+        "Nerves"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-22",
+      "Text": "The hormone insulin is produced by which organ?",
+      "Options": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Stomach"
+      ],
+      "CorrectAnswers": [
+        "Pancreas"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-23",
+      "Text": "Which of these is not a type of RNA?",
+      "Options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "dRNA"
+      ],
+      "CorrectAnswers": [
+        "dRNA"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-24",
+      "Text": "The study of insects is called:",
+      "Options": [
+        "Ornithology",
+        "Entomology",
+        "Herpetology",
+        "Ichthyology"
+      ],
+      "CorrectAnswers": [
+        "Entomology"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-25",
+      "Text": "Which of these is not a function of the kidneys?",
+      "Options": [
+        "Filter blood",
+        "Produce urine",
+        "Regulate blood pressure",
+        "Produce bile"
+      ],
+      "CorrectAnswers": [
+        "Produce bile"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-26",
+      "Text": "The smallest unit of an element is called:",
+      "Options": [
+        "Molecule",
+        "Atom",
+        "Cell",
+        "Compound"
+      ],
+      "CorrectAnswers": [
+        "Atom"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-27",
+      "Text": "Which of these is not a type of joint in the human body?",
+      "Options": [
+        "Hinge",
+        "Ball and socket",
+        "Pivot",
+        "Elastic"
+      ],
+      "CorrectAnswers": [
+        "Elastic"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-28",
+      "Text": "The process by which plants respond to light is called:",
+      "Options": [
+        "Gravitropism",
+        "Phototropism",
+        "Thigmotropism",
+        "Hydrotropism"
+      ],
+      "CorrectAnswers": [
+        "Phototropism"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-29",
+      "Text": "Which of these is not a primary taste sensation?",
+      "Options": [
+        "Sweet",
+        "Sour",
+        "Salty",
+        "Bitter",
+        "Umami",
+        "Spicy"
+      ],
+      "CorrectAnswers": [
+        "Spicy"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-30",
+      "Text": "The largest artery in the human body is the:",
+      "Options": [
+        "Pulmonary artery",
+        "Aorta",
+        "Coronary artery",
+        "Jugular vein"
+      ],
+      "CorrectAnswers": [
+        "Aorta"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-31",
+      "Text": "Which of these is not a function of the respiratory system?",
+      "Options": [
+        "Gas exchange",
+        "pH regulation",
+        "Sound production",
+        "Nutrient absorption"
+      ],
+      "CorrectAnswers": [
+        "Nutrient absorption"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-32",
+      "Text": "The process by which water moves across a semipermeable membrane is called:",
+      "Options": [
+        "Diffusion",
+        "Osmosis",
+        "Active transport",
+        "Facilitated diffusion"
+      ],
+      "CorrectAnswers": [
+        "Osmosis"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-33",
+      "Text": "Which of these is not a type of plant tissue?",
+      "Options": [
+        "Epidermal",
+        "Ground",
+        "Vascular",
+        "Muscular"
+      ],
+      "CorrectAnswers": [
+        "Muscular"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-34",
+      "Text": "The study of animal behavior is called:",
+      "Options": [
+        "Ecology",
+        "Ethology",
+        "Zoology",
+        "Psychology"
+      ],
+      "CorrectAnswers": [
+        "Ethology"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-35",
+      "Text": "Which of these is not a function of the lymphatic system?",
+      "Options": [
+        "Fluid balance",
+        "Immune defense",
+        "Fat absorption",
+        "Oxygen transport"
+      ],
+      "CorrectAnswers": [
+        "Oxygen transport"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-36",
+      "Text": "The process by which plants grow toward gravity is called:",
+      "Options": [
+        "Phototropism",
+        "Gravitropism",
+        "Thigmotropism",
+        "Hydrotropism"
+      ],
+      "CorrectAnswers": [
+        "Gravitropism"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-37",
+      "Text": "Which of these is not a function of the integumentary system?",
+      "Options": [
+        "Protection",
+        "Temperature regulation",
+        "Sensation",
+        "Hormone production"
+      ],
+      "CorrectAnswers": [
+        "Hormone production"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-38",
+      "Text": "The study of fish is called:",
+      "Options": [
+        "Ornithology",
+        "Herpetology",
+        "Ichthyology",
+        "Mammalogy"
+      ],
+      "CorrectAnswers": [
+        "Ichthyology"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-39",
+      "Text": "Which of these is not a function of the cardiovascular system?",
+      "Options": [
+        "Transport oxygen",
+        "Transport nutrients",
+        "Remove waste",
+        "Produce hormones"
+      ],
+      "CorrectAnswers": [
+        "Produce hormones"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "bio-40",
+      "Text": "The process by which cells engulf large particles is called:",
+      "Options": [
+        "Diffusion",
+        "Osmosis",
+        "Phagocytosis",
+        "Pinocytosis"
+      ],
+      "CorrectAnswers": [
+        "Phagocytosis"
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "CorrectAnswersCount": 6
+}

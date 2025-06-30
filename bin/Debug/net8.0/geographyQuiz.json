@@ -1,0 +1,574 @@
+{
+  "Id": "quiz-2",
+  "Title": "Geography Quiz",
+  "Category": 1,
+  "Questions": [
+    {
+      "Id": "geo-1",
+      "Text": "What is the capital of France?",
+      "Options": [
+        "Berlin",
+        "Madrid",
+        "Paris",
+        "Rome"
+      ],
+      "CorrectAnswers": [
+        "Paris"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-2",
+      "Text": "Which is the longest river in the world?",
+      "Options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "CorrectAnswers": [
+        "Nile"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-3",
+      "Text": "Mount Everest is located in which mountain range?",
+      "Options": [
+        "Andes",
+        "Alps",
+        "Himalayas",
+        "Rockies"
+      ],
+      "CorrectAnswers": [
+        "Himalayas"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-4",
+      "Text": "Which of these countries is landlocked?",
+      "Options": [
+        "Brazil",
+        "Australia",
+        "Switzerland",
+        "Japan"
+      ],
+      "CorrectAnswers": [
+        "Switzerland"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-5",
+      "Text": "Which countries share a border with the United States?",
+      "Options": [
+        "Canada",
+        "Mexico",
+        "Russia",
+        "Cuba"
+      ],
+      "CorrectAnswers": [
+        "Canada",
+        "Mexico"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "geo-6",
+      "Text": "The Sahara Desert is located in which continent?",
+      "Options": [
+        "Asia",
+        "Africa",
+        "South America",
+        "Australia"
+      ],
+      "CorrectAnswers": [
+        "Africa"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-7",
+      "Text": "Which of these is the largest ocean?",
+      "Options": [
+        "Atlantic",
+        "Indian",
+        "Arctic",
+        "Pacific"
+      ],
+      "CorrectAnswers": [
+        "Pacific"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-8",
+      "Text": "The Great Barrier Reef is located off the coast of which country?",
+      "Options": [
+        "Brazil",
+        "Australia",
+        "Indonesia",
+        "South Africa"
+      ],
+      "CorrectAnswers": [
+        "Australia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-9",
+      "Text": "Which continent contains the most fresh water?",
+      "Options": [
+        "Asia",
+        "Africa",
+        "Antarctica",
+        "North America"
+      ],
+      "CorrectAnswers": [
+        "Antarctica"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-10",
+      "Text": "The Amazon rainforest is primarily located in which country?",
+      "Options": [
+        "Brazil",
+        "Peru",
+        "Colombia",
+        "Venezuela"
+      ],
+      "CorrectAnswers": [
+        "Brazil"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-11",
+      "Text": "Which of these cities is not a national capital?",
+      "Options": [
+        "Sydney",
+        "Canberra",
+        "Washington D.C.",
+        "London"
+      ],
+      "CorrectAnswers": [
+        "Sydney"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-12",
+      "Text": "The Dead Sea is bordered by which countries?",
+      "Options": [
+        "Israel",
+        "Jordan",
+        "Egypt",
+        "Syria"
+      ],
+      "CorrectAnswers": [
+        "Israel",
+        "Jordan"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "geo-13",
+      "Text": "Which country has the most time zones?",
+      "Options": [
+        "United States",
+        "Russia",
+        "China",
+        "Canada"
+      ],
+      "CorrectAnswers": [
+        "France"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-14",
+      "Text": "The Panama Canal connects which two oceans?",
+      "Options": [
+        "Atlantic and Indian",
+        "Atlantic and Pacific",
+        "Pacific and Indian",
+        "Arctic and Atlantic"
+      ],
+      "CorrectAnswers": [
+        "Atlantic and Pacific"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-15",
+      "Text": "Which of these is the smallest country by area?",
+      "Options": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "CorrectAnswers": [
+        "Vatican City"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-16",
+      "Text": "The Yangtze River is located in which country?",
+      "Options": [
+        "India",
+        "China",
+        "Japan",
+        "Vietnam"
+      ],
+      "CorrectAnswers": [
+        "China"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-17",
+      "Text": "Which African country was formerly known as Abyssinia?",
+      "Options": [
+        "Ethiopia",
+        "Sudan",
+        "Kenya",
+        "Tanzania"
+      ],
+      "CorrectAnswers": [
+        "Ethiopia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-18",
+      "Text": "The Ural Mountains form a boundary between which two continents?",
+      "Options": [
+        "Europe and Asia",
+        "Asia and Africa",
+        "North and South America",
+        "Europe and Africa"
+      ],
+      "CorrectAnswers": [
+        "Europe and Asia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-19",
+      "Text": "Which country is known as the \u0027Land of the Rising Sun\u0027?",
+      "Options": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Thailand"
+      ],
+      "CorrectAnswers": [
+        "Japan"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-20",
+      "Text": "The capital of Canada is:",
+      "Options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ],
+      "CorrectAnswers": [
+        "Ottawa"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-21",
+      "Text": "Which of these countries is not in Europe?",
+      "Options": [
+        "Hungary",
+        "Romania",
+        "Morocco",
+        "Poland"
+      ],
+      "CorrectAnswers": [
+        "Morocco"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-22",
+      "Text": "The Galapagos Islands belong to which country?",
+      "Options": [
+        "Ecuador",
+        "Peru",
+        "Chile",
+        "Colombia"
+      ],
+      "CorrectAnswers": [
+        "Ecuador"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-23",
+      "Text": "Which of these cities is located in both Europe and Asia?",
+      "Options": [
+        "Istanbul",
+        "Moscow",
+        "Cairo",
+        "Dubai"
+      ],
+      "CorrectAnswers": [
+        "Istanbul"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-24",
+      "Text": "The Atacama Desert is located in which continent?",
+      "Options": [
+        "Africa",
+        "Asia",
+        "South America",
+        "Australia"
+      ],
+      "CorrectAnswers": [
+        "South America"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-25",
+      "Text": "Which country is both an island and a continent?",
+      "Options": [
+        "New Zealand",
+        "Madagascar",
+        "Australia",
+        "Greenland"
+      ],
+      "CorrectAnswers": [
+        "Australia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-26",
+      "Text": "The Strait of Gibraltar separates which two landmasses?",
+      "Options": [
+        "Europe and Africa",
+        "Asia and Europe",
+        "North and South America",
+        "Africa and Asia"
+      ],
+      "CorrectAnswers": [
+        "Europe and Africa"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-27",
+      "Text": "Which of these is the largest country by area?",
+      "Options": [
+        "Canada",
+        "China",
+        "United States",
+        "Brazil"
+      ],
+      "CorrectAnswers": [
+        "Russia"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-28",
+      "Text": "The capital of Australia is:",
+      "Options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "CorrectAnswers": [
+        "Canberra"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-29",
+      "Text": "Which river runs through Baghdad?",
+      "Options": [
+        "Nile",
+        "Tigris",
+        "Euphrates",
+        "Jordan"
+      ],
+      "CorrectAnswers": [
+        "Tigris"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-30",
+      "Text": "The Andes mountain range runs through which countries?",
+      "Options": [
+        "Chile",
+        "Peru",
+        "Colombia",
+        "Brazil",
+        "Argentina"
+      ],
+      "CorrectAnswers": [
+        "Chile",
+        "Peru",
+        "Colombia",
+        "Argentina"
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "Id": "geo-31",
+      "Text": "Which of these is not a Scandinavian country?",
+      "Options": [
+        "Sweden",
+        "Finland",
+        "Denmark",
+        "Iceland"
+      ],
+      "CorrectAnswers": [
+        "Finland"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-32",
+      "Text": "The Suez Canal connects which two bodies of water?",
+      "Options": [
+        "Mediterranean Sea and Red Sea",
+        "Atlantic and Pacific",
+        "Indian Ocean and Persian Gulf",
+        "Black Sea and Aegean Sea"
+      ],
+      "CorrectAnswers": [
+        "Mediterranean Sea and Red Sea"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-33",
+      "Text": "Which country has the longest coastline?",
+      "Options": [
+        "Russia",
+        "Canada",
+        "United States",
+        "Australia"
+      ],
+      "CorrectAnswers": [
+        "Canada"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-34",
+      "Text": "The Maldives are located in which ocean?",
+      "Options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "CorrectAnswers": [
+        "Indian"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-35",
+      "Text": "Which of these US states does not border Mexico?",
+      "Options": [
+        "Texas",
+        "Arizona",
+        "New Mexico",
+        "Nevada"
+      ],
+      "CorrectAnswers": [
+        "Nevada"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-36",
+      "Text": "The capital of South Africa is:",
+      "Options": [
+        "Johannesburg",
+        "Cape Town",
+        "Pretoria",
+        "Durban"
+      ],
+      "CorrectAnswers": [
+        "Pretoria"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-37",
+      "Text": "Which of these is not a Baltic state?",
+      "Options": [
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Poland"
+      ],
+      "CorrectAnswers": [
+        "Poland"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-38",
+      "Text": "The highest mountain in Africa is:",
+      "Options": [
+        "Mount Kenya",
+        "Mount Kilimanjaro",
+        "Mount Stanley",
+        "Mount Meru"
+      ],
+      "CorrectAnswers": [
+        "Mount Kilimanjaro"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-39",
+      "Text": "Which of these countries is not in South America?",
+      "Options": [
+        "Suriname",
+        "Guyana",
+        "Belize",
+        "Ecuador"
+      ],
+      "CorrectAnswers": [
+        "Belize"
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "Id": "geo-40",
+      "Text": "The largest island in the world is:",
+      "Options": [
+        "Greenland",
+        "Australia",
+        "Borneo",
+        "Madagascar"
+      ],
+      "CorrectAnswers": [
+        "Greenland"
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "CorrectAnswersCount": 0
+}
