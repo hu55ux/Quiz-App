@@ -1,7 +1,7 @@
 ﻿using QuizGame.Entities;
 using QuizGame.Helper;
-
 namespace QuizGame.Database;
+
 
 public class Database
 {
