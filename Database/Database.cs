@@ -26,13 +26,12 @@ public class Database
         GeographyQuiz = new Quiz();
         BiologyQuiz = new Quiz();
         MixedQuiz = new Quiz();
-        var quizzes = JsonHelper.LoadListFromJson<Quiz>("quizzes.json");
 
         Users = JsonHelper.LoadListFromJson<User>(jsonUsers);
-        HistoryQuiz = quizzes.First(q => q.Category == QuizCategory.History);
-        GeographyQuiz = quizzes.First(q => q.Category == QuizCategory.Geography);
-        BiologyQuiz = quizzes.First(q => q.Category == QuizCategory.Biology);
-        MixedQuiz = quizzes.First(q => q.Category == QuizCategory.Mixed);
+        HistoryQuiz = JsonHelper.LoadObjectFromJson<Quiz>(jsonHistoryQuiz);
+        GeographyQuiz = JsonHelper.LoadObjectFromJson<Quiz>(jsongeographyQuiz);
+        BiologyQuiz = JsonHelper.LoadObjectFromJson<Quiz>(jsonbiologyQuiz);
+        MixedQuiz = JsonHelper.LoadObjectFromJson<Quiz>(jsonmixedQuiz);
         Results = JsonHelper.LoadListFromJson<Result>(jsonResults);
     }
 

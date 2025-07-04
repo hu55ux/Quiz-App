@@ -75,13 +75,7 @@ public class UserService : BaseService, IUserService
         {
             throw new ArgumentException("Birthdate cannot be in the future.");
         }
-        var newUser = new User
-        {
-            Id = BaseService.GenerateRandomId(),
-            Username = username,
-            Password = password,
-            Birthdate = birthdate
-        };
+        User newUser = new User(Guid.NewGuid().ToString(), username, password, birthdate);
         _database.Users.Add(newUser);
     }
 
@@ -118,7 +112,7 @@ public class UserService : BaseService, IUserService
     {
         int yearNow = DateTime.Now.Year;
         int birthtadeYear = birthdate.Year;
-        if(yearNow - birthtadeYear < 18)
+        if (yearNow - birthtadeYear < 18)
         {
             return false; // User must be at least 18 years old
         }
