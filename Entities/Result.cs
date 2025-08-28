@@ -11,7 +11,9 @@ public class Result
 
     public void Display()
     {
-       
+        User.Display();
+        Console.WriteLine($"Quiz category: {Quiz.Category.ToString()}");
+        Console.WriteLine($"Score: {Score}");
     }
 
-   }
+}

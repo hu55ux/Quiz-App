@@ -11,7 +11,6 @@ public class User
     { }
     public void Display()
     {
-        Console.WriteLine($"User ID: {Id}");
         Console.WriteLine($"Username: {Username}");
         Console.WriteLine($"Birthdate: {Birthdate.ToShortDateString()}");
     }
