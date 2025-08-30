@@ -1,27 +1,15 @@
-﻿//using QuizGame.Entities;
+﻿//using Microsoft.EntityFrameworkCore;
+//using QuizGame.Entities;
 //using QuizGame.Helper;
 //using QuizGame.Services.Abstract;
 //namespace QuizGame.Services;
 
 //public class QuizService : BaseService, IQuizService
 //{
-//    public QuizService(Database.Database database) : base(database)
+//    public QuizService(QuizGameDBContext database) : base(database)
 //    {
 //    }
 
-
-//    public void CorrectAnswer(Quiz quiz)
-//    {
-//        quiz.CorrectAnswersCount++;
-//    }
-
-//    public Question? GetQuestionById(string category, string questionId)
-//    {
-//        var quiz = GetQuizByCategory(category);
-//        var question = quiz?.Questions?
-//            .FirstOrDefault(q => q.Id == questionId);
-//        return question;
-//    }
 
 //    public List<Question> GetQuestions(Quiz quiz, bool random = false)
 //    {
@@ -39,19 +27,11 @@
 //        return questions.Take(20).ToList();
 //    }
 
-//    public Quiz? GetQuizByCategory(string category)
+//    public Quiz? GetQuizByCategory()
 //    {
-//        var quizByCategory = category?.Trim().ToLower();
-
-//        return quizByCategory switch
-//        {
-//            "history" => _database.HistoryQuiz,
-//            "geography" => _database.GeographyQuiz,
-//            "biology" => _database.BiologyQuiz,
-//            "mixed" => _database.MixedQuiz,
-//            _ => throw new ArgumentNullException($"Quiz with category '{category}' not found.")
-//        };
-
+//        string? quizCategory = Display.SelectionCategoryForQuiz();
+//        var quiz = _database.Quizzes.Include(q => q.Questions).ThenInclude(a => a.Answers).FirstOrDefault(q => q.Category.ToString() == quizCategory);
+//        return quiz;
 //    }
 
 //    public List<string> GetQuizCategories()
@@ -68,15 +48,10 @@
 
 
 
-//    public List<Result> GetResultsByUserId(string userId)
+//    public List<Result> GetResultsByUserId(int userId)
 //    {
-//        return _database?.Results?
-//            .Where(r => r.UserId == userId)
-//            .OrderByDescending(r => r.Score)
-//            .Take(20)
-//            .ToList() ?? new List<Result>();
-
-
+//        var result = _database?.Results.Include(r => r.Quiz).ThenInclude(q => q.Questions).Where(r => r.UserId == userId).ToList();
+//        return result;
 //    }
 
 //    public Result? ResultQuiz(string category, string userId)
@@ -97,20 +72,6 @@
 //    public void SendResults(Result result)
 //    {
 //        _database?.Results?.Add(result);
-//    }
-//    public void AddQuestion(Quiz quiz, Question question)
-//    {
-//        quiz.Questions.Add(question);
-//    }
-
-//    public void RemoveQuestion(Quiz quiz, string questionId)
-//    {
-//        quiz.Questions.RemoveAll(q => q.Id == questionId);
-//    }
-//    public void UpdateQuestion(Quiz quiz, Question question)
-//    {
-//        quiz.Questions.RemoveAll(q => q.Id == question.Id);
-//        quiz.Questions.Add(question);
 //    }
 
 //    public void StartQuiz(string category, string userId)
@@ -240,10 +201,6 @@
 
 //    public List<Result> GetResultByCategory(string category)
 //    {
-//        return _database?.Results?
-//            .Where(r => r.QuizId == GetQuizByCategory(category)?.Id)
-//            .OrderByDescending(r => r.Score)
-//            .Take(20)
-//            .ToList() ?? new List<Result>();
+
 //    }
 //}

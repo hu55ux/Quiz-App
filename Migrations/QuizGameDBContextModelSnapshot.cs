@@ -43,7 +43,7 @@ namespace QuizGame.Migrations
 
                     b.HasIndex("QuestionId");
 
-                    b.ToTable("Answer");
+                    b.ToTable("Answers");
                 });
 
             modelBuilder.Entity("QuizGame.Entities.Question", b =>
@@ -68,7 +68,7 @@ namespace QuizGame.Migrations
 
                     b.HasIndex("QuizId");
 
-                    b.ToTable("Question");
+                    b.ToTable("Questions");
                 });
 
             modelBuilder.Entity("QuizGame.Entities.Quiz", b =>
