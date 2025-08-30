@@ -9,6 +9,9 @@ public class QuizGameDBContext : DbContext
     public DbSet<Quiz> Quizzes { get; set; }
     public DbSet<Result> Results { get; set; }
 
+    public DbSet<Question> Questions { get; set; }
+    public DbSet<Answer> Answers { get; set; }
+
     public QuizGameDBContext()
     {
     }
@@ -2243,6 +2246,25 @@ public class QuizGameDBContext : DbContext
 
     };
 
+    public List<User> users = new List<User>
+    {
+        new User { Id = 1, Username = "hu55ux",    Password = PasswordHelper.HashPassword("ab1!cd2e"), Birthdate = new DateTime(2000, 5, 21) },
+        new User { Id = 2, Username = "abbass11", Password = PasswordHelper.HashPassword("xy9@lm3n"), Birthdate = new DateTime(1998, 11, 3) },
+        new User { Id = 3, Username = "murad_dev",   Password = PasswordHelper.HashPassword("qw1#er2t"), Birthdate = new DateTime(1995, 2, 14) },
+        new User { Id = 4, Username = "ako_isi",     Password = PasswordHelper.HashPassword("mn4$op5q"), Birthdate = new DateTime(1988, 7, 19) },
+        new User { Id = 5, Username = "gulcinSeki",     Password = PasswordHelper.HashPassword("az7*ty8u"), Birthdate = new DateTime(1999, 12, 1) },
+        new User { Id = 6, Username = "hajili",     Password = PasswordHelper.HashPassword("bc1!de2f"), Birthdate = new DateTime(2002, 6, 15) },
+        new User { Id = 7, Username = "ayla",      Password = PasswordHelper.HashPassword("kl2@mn3o"), Birthdate = new DateTime(2001, 8, 25) },
+        new User { Id = 8, Username = "emil",      Password = PasswordHelper.HashPassword("st4#uv5w"), Birthdate = new DateTime(1977, 4, 9) },
+        new User { Id = 9, Username = "leyla",     Password = PasswordHelper.HashPassword("gh6$ij7k"), Birthdate = new DateTime(1996, 1, 30) },
+        new User { Id = 10, Username = "orxan",    Password = PasswordHelper.HashPassword("rs8%tu9v"), Birthdate = new DateTime(1995, 9, 13) },
+        new User { Id = 11, Username = "sevinj",   Password = PasswordHelper.HashPassword("de1!fg2h"), Birthdate = new DateTime(2000, 3, 5) },
+        new User { Id = 12, Username = "rashad",   Password = PasswordHelper.HashPassword("wx3@yz4a"), Birthdate = new DateTime(1988, 10, 17) },
+        new User { Id = 13, Username = "kamran",   Password = PasswordHelper.HashPassword("lm5#no6p"), Birthdate = new DateTime(1992, 12, 23) },
+        new User { Id = 14, Username = "gunay",    Password = PasswordHelper.HashPassword("qr7$st8u"), Birthdate = new DateTime(1998, 6, 7) },
+        new User { Id = 15, Username = "tural",    Password = PasswordHelper.HashPassword("op9*qr1s"), Birthdate = new DateTime(1994, 4, 11) }
+
+    };
 
 
 }

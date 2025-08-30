@@ -1,4 +1,6 @@
-﻿namespace QuizGame.Entities;
+﻿using QuizGame.Helper;
+
+namespace QuizGame.Entities;
 
 public class Question
 {
