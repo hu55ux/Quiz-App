@@ -2013,8 +2013,8 @@ public class DataAdder : BaseService
 
     public List<Result> results = new List<Result>
     {
-        new Result { UserId = 1, QuizId = 1, Score = 19 },
-        new Result { UserId = 1, QuizId = 2, Score = 19 },
+        new Result { UserId = 1, QuizId = 1, Score = 20 },
+        new Result { UserId = 1, QuizId = 2, Score = 20 },
         new Result { UserId = 1, QuizId = 3, Score = 20 },
         new Result { UserId = 1, QuizId = 4, Score = 20 },
 
@@ -2024,7 +2024,7 @@ public class DataAdder : BaseService
         new Result { UserId = 2, QuizId = 4, Score = 13 },
 
         new Result { UserId = 3, QuizId = 1, Score = 11 },
-        new Result { UserId = 3, QuizId = 2, Score = 20 },
+        new Result { UserId = 3, QuizId = 2, Score = 18 },
         new Result { UserId = 3, QuizId = 3, Score = 14 },
         new Result { UserId = 3, QuizId = 4, Score = 18 },
 
@@ -2035,7 +2035,7 @@ public class DataAdder : BaseService
 
         new Result { UserId = 5, QuizId = 1, Score = 13 },
         new Result { UserId = 5, QuizId = 2, Score = 17 },
-        new Result { UserId = 5, QuizId = 3, Score = 20 },
+        new Result { UserId = 5, QuizId = 3, Score = 17 },
         new Result { UserId = 5, QuizId = 4, Score = 14 },
 
         new Result { UserId = 6, QuizId = 1, Score = 18 },
@@ -2048,7 +2048,7 @@ public class DataAdder : BaseService
         new Result { UserId = 7, QuizId = 3, Score = 13 },
         new Result { UserId = 7, QuizId = 4, Score = 17 },
 
-        new Result { UserId = 8, QuizId = 1, Score = 20 },
+        new Result { UserId = 8, QuizId = 1, Score = 17 },
         new Result { UserId = 8, QuizId = 2, Score = 16 },
         new Result { UserId = 8, QuizId = 3, Score = 18 },
         new Result { UserId = 8, QuizId = 4, Score = 14 },

@@ -1,17 +1,12 @@
 ﻿using QuizGame.Entities;
+using QuizGame.Entities.DataTransferObjects;
 namespace QuizGame.Services.Abstract;
 
 public interface IQuizService
 {
-    public List<string> GetQuizCategories();
-    public Quiz? GetQuizByCategory(string category);
+    public Quiz? GetQuizByCategory();
     public List<Question> GetQuestions(Quiz quiz, bool random = false);
-    public Result? ResultQuiz(string category, string userId);
-    public List<Result> GetResultsByUserId(string userId);
-    public Question? GetQuestionById(string category, string questionId);
-    public void SendResults(Result result);
-    public void CorrectAnswer(Quiz quiz);
-    public void StartQuiz(string category, string userId);
-
-    public List<Result> GetResultByCategory(string category);
+    public List<UserScoreDto>? ResultQuizByCategory();
+    public List<UserScoreById> GetResultsByUserId(int userId);
+    public void StartQuiz(int userId);
 }
