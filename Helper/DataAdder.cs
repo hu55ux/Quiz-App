@@ -2066,7 +2066,7 @@ public class DataAdder : BaseService
         new Result { UserId = 11, QuizId = 1, Score = 17 },
         new Result { UserId = 11, QuizId = 2, Score = 13 },
         new Result { UserId = 11, QuizId = 3, Score = 15 },
-        new Result { UserId = 11, QuizId = 4, Score = 20 },
+        new Result { UserId = 11, QuizId = 4, Score = 16 },
 
         new Result { UserId = 12, QuizId = 1, Score = 16 },
         new Result { UserId = 12, QuizId = 2, Score = 12 },
@@ -2091,8 +2091,8 @@ public class DataAdder : BaseService
 
     public List<User> users = new List<User>
     {
-        new User { Username = "hu55ux",     Password = PasswordHelper.HashPassword("ab1!cd2e"), Birthdate = new DateTime(2000, 5, 21) },
-        new User { Username = "abbass11",   Password = PasswordHelper.HashPassword("xy9@lm3n"), Birthdate = new DateTime(1998, 11, 3) },
+        new User { Username = "hu55ux",     Password = PasswordHelper.HashPassword("husu777@"), Birthdate = new DateTime(2004, 1, 21) },
+        new User { Username = "abbass11",   Password = PasswordHelper.HashPassword("abbas12@"), Birthdate = new DateTime(1998, 11, 3) },
         new User { Username = "murad_dev",  Password = PasswordHelper.HashPassword("qw1#er2t"), Birthdate = new DateTime(1995, 2, 14) },
         new User { Username = "ako_isi",    Password = PasswordHelper.HashPassword("mn4$op5q"), Birthdate = new DateTime(1988, 7, 19) },
         new User { Username = "gulcinSeki", Password = PasswordHelper.HashPassword("az7*ty8u"), Birthdate = new DateTime(1999, 12, 1) },
@@ -2105,7 +2105,8 @@ public class DataAdder : BaseService
         new User { Username = "rashad",     Password = PasswordHelper.HashPassword("wx3@yz4a"), Birthdate = new DateTime(1988, 10, 17) },
         new User { Username = "kamran",     Password = PasswordHelper.HashPassword("lm5#no6p"), Birthdate = new DateTime(1992, 12, 23) },
         new User { Username = "gunay",      Password = PasswordHelper.HashPassword("qr7$st8u"), Birthdate = new DateTime(1998, 6, 7) },
-        new User { Username = "tural",      Password = PasswordHelper.HashPassword("op9*qr1s"), Birthdate = new DateTime(1994, 4, 11) }
+        new User { Username = "tural",      Password = PasswordHelper.HashPassword("op9*qr1s"), Birthdate = new DateTime(1994, 4, 11) },
+        new User { Username = "admin",      Password = PasswordHelper.HashPassword("admin11@"), Birthdate = new DateTime(1994, 4, 11) }
 
     };
 

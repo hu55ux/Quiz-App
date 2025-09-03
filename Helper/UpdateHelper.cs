@@ -1,5 +1,4 @@
 ﻿using QuizGame.Entities;
-
 namespace QuizGame.Helper;
 
 public class UpdateHelper

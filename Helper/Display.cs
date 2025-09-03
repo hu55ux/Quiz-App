@@ -88,63 +88,76 @@ public static class Display
                 return QuizCategory.Mixed;
         }
     }
-    public static User? DisplayLogin(QuizGameDBContext database, IUserService userService)
+    public static User DisplayLogin(QuizGameDBContext database, IUserService userService)
     {
-        Console.Clear();
-        Console.WriteLine("Login to your account\n");
-        Console.Write("Username: ");
-        string username = Console.ReadLine()?.Trim() ?? string.Empty;
-        Console.Write("Password: ");
-        string password = Console.ReadLine()?.Trim() ?? string.Empty;
-        try
+        while (true)
         {
-            User? user = userService.Login(username, password);
-            if (user != null)
+            Console.Clear();
+            Console.WriteLine("Login to your account\n");
+            Console.Write("Username: ");
+            string username = Console.ReadLine()?.Trim() ?? string.Empty;
+            Console.Write("Password: ");
+            string password = Console.ReadLine()?.Trim() ?? string.Empty;
+            try
             {
-                Console.WriteLine($"Welcome back, {user.Username}!");
-                return user;
+                User? user = userService.Login(username, password);
+                if (user != null)
+                {
+                    Console.WriteLine($"Welcome back, {user.Username}!");
+                    return user;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid username or password. Please try again.");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Invalid username or password. Please try again.");
+                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine("Press any key to try again...");
+                Console.ReadKey();
             }
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-        }
-        return null;
     }
 
-    public static void DisplayRegister(QuizGameDBContext database, IUserService userService)
+
+    public static User DisplayRegister(QuizGameDBContext database, IUserService userService)
     {
-        Console.Clear();
-        Console.WriteLine("Register a new account\n");
-        Console.Write("Username: ");
-        string username = Console.ReadLine()?.Trim() ?? string.Empty;
-        Console.Write("Password: ");
-        string password = Console.ReadLine()?.Trim() ?? string.Empty;
-        Console.Write("Birthdate (yyyy-mm-dd): ");
-        DateTime birthdate;
-        while (!DateTime.TryParse(Console.ReadLine(), out birthdate))
+        while (true)
         {
-            Console.Write("Invalid date format. Please enter your birthdate (yyyy-mm-dd): ");
-        }
-        try
-        {
-            userService.Register(username, password, birthdate);
-            User? user = userService.Login(username, password);
-            if (user != null)
+            Console.Clear();
+            Console.WriteLine("Register a new account\n");
+            Console.Write("Username: ");
+            string username = Console.ReadLine()?.Trim() ?? string.Empty;
+            Console.Write("Password: ");
+            string password = Console.ReadLine()?.Trim() ?? string.Empty;
+            Console.Write("Birthdate (yyyy-mm-dd): ");
+            DateTime birthdate;
+            while (!DateTime.TryParse(Console.ReadLine(), out birthdate))
             {
-                Console.WriteLine($"Registration successful! Welcome, {user.Username}!");
-                database?.Users?.Add(user);
+                Console.Write("Invalid date format. Please enter your birthdate (yyyy-mm-dd): ");
+            }
+            try
+            {
+                userService.Register(username, password, birthdate);
+                User? user = userService.Login(username, password);
+                if (user != null)
+                {
+                    Console.WriteLine($"Registration successful! Welcome, {user.Username}!");
+                    return user;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine("Press any key to try again...");
+                Console.ReadKey();
             }
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-        }
     }
+
 
     public static int DisplayMainMenu()
     {
@@ -202,11 +215,9 @@ public static class Display
     {
         List<string> choices = new List<string>
         {
-            "History Quiz",
-            "Biology Quiz",
-            "Geography Quiz",
-            "Mixed Quiz",
-            "View Results",
+            "Start Quiz",
+            "View Personal Results",
+            "View All Results by Category",
             "Update personal information",
             "Logout"
         };
@@ -218,6 +229,7 @@ public static class Display
             try
             {
                 Console.Clear();
+                Console.WriteLine(Program.WelcomeMessage);
                 Console.WriteLine("Use arrow keys to navigate and Enter to select.\n");
                 for (int i = 0; i < choices.Count; i++)
                 {

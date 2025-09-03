@@ -65,31 +65,52 @@ public class UserService : BaseService, IUserService
         _database.SaveChanges();
     }
 
-    public void UpdateSettings(int userId, string? username, string? password, DateTime? birthdate)
+    public void UpdateUserData(QuizGameDBContext database, int userId)
     {
         var user = GetUserById(userId);
         if (user == null)
             throw new UserNotFoundException($"User not found with ID: {userId}");
+
+        Console.Write("Enter new username (leave empty to keep current): ");
+        string? username = Console.ReadLine();
+
         if (!string.IsNullOrWhiteSpace(username))
         {
             if (!ValidationData_s.ValidateUsername(username))
                 throw new ArgumentException("Username must be at least 8 characters, include 1 uppercase letter and 1 number.");
-            if (!ValidationData_s.IsUniqueUsername(_database, username, userId))
+            if (!ValidationData_s.IsUniqueUsername(database, username, userId))
                 throw new UsernameAlreadyExistsException("Username already exists.");
             user.Username = username;
         }
+
+        Console.Write("Enter new password (leave empty to keep current): ");
+        string? password = Console.ReadLine();
+
         if (!string.IsNullOrWhiteSpace(password))
         {
             if (!ValidationData_s.ValidatePassword(password))
                 throw new ArgumentException("Password must be exactly 8 characters, contain at least 2 digits, 1 special character, and only lowercase letters.");
             user.Password = PasswordHelper.HashPassword(password);
         }
-        if (birthdate.HasValue)
+
+        Console.Write("Enter new birthdate (yyyy-MM-dd) (leave empty to keep current): ");
+        string? birthdateInput = Console.ReadLine();
+
+        if (!string.IsNullOrWhiteSpace(birthdateInput))
         {
-            if (!ValidationData_s.ValidateBirthdate(birthdate.Value))
-                throw new ArgumentException("User must be at least 18 years old.");
-            user.Birthdate = birthdate.Value;
+            if (DateTime.TryParse(birthdateInput, out DateTime birthdate))
+            {
+                if (!ValidationData_s.ValidateBirthdate(birthdate))
+                    throw new ArgumentException("User must be at least 18 years old.");
+                user.Birthdate = birthdate;
+            }
+            else
+            {
+                Console.WriteLine("Invalid date format. Skipping birthdate update.");
+            }
         }
-        _database.SaveChanges();
+
+        database.SaveChanges();
     }
+
 }
